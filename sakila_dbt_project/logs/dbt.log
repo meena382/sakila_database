@@ -1,0 +1,1698 @@
+
+
+============================== 2022-06-12 05:13:07.093046 | ca20d303-887e-4f14-bc40-d80b36580114 ==============================
+05:13:07.093058 [info ] [MainThread]: Running with dbt=1.1.0
+05:13:07.093571 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/meena/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+05:13:07.093769 [debug] [MainThread]: Tracking: tracking
+05:13:07.106518 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdab6702e80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdab6702df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdab6702cd0>]}
+05:13:07.107258 [info ] [MainThread]: Setting up your profile.
+05:13:13.576391 [info ] [MainThread]: Profile sakila_conn written to /home/meena/.dbt/profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+05:13:13.576934 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdab4f600d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdab4ec39a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdab4ec39d0>]}
+
+
+============================== 2022-06-12 06:35:01.965332 | fc372cf0-90b7-4a77-b70d-63052fe91b29 ==============================
+06:35:01.965343 [info ] [MainThread]: Running with dbt=1.1.0
+06:35:02.017269 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/meena/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+06:35:02.017631 [debug] [MainThread]: Tracking: tracking
+06:35:02.031846 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc45fbdfa60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc45fbdf9d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc45fbdf910>]}
+06:35:02.032485 [info ] [MainThread]: Setting up your profile.
+06:35:11.199469 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc45fc41490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc45fc411f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc45fc41fa0>]}
+
+
+============================== 2022-06-13 03:12:01.331183 | e9b400cd-51e4-41ed-a333-16890af0ce56 ==============================
+03:12:01.331200 [info ] [MainThread]: Running with dbt=1.1.0
+03:12:01.337010 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/meena/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+03:12:01.337316 [debug] [MainThread]: Tracking: tracking
+03:12:01.434447 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f048a773ac0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f048a773a30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f048a773970>]}
+03:12:01.435231 [info ] [MainThread]: Setting up your profile.
+03:12:09.305036 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f048a7cd370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f048a7cd670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f048a7cd5b0>]}
+03:12:09.334131 [warn ] [MainThread]: Error sending message, disabling tracking
+
+
+============================== 2022-06-13 03:12:14.860729 | 721e39a7-5da0-428b-9324-1e529884f34b ==============================
+03:12:14.860754 [info ] [MainThread]: Running with dbt=1.1.0
+03:12:14.861544 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/meena/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+03:12:14.861837 [debug] [MainThread]: Tracking: tracking
+03:12:14.878550 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9be27a2610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9be27a26d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9be27a2700>]}
+03:12:14.879958 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9be27a2640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9be27a26a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9be27a2730>]}
+03:12:14.886451 [warn ] [MainThread]: Error sending message, disabling tracking
+
+
+============================== 2022-06-13 03:12:53.572940 | aab08254-a64c-42b7-956a-3fc48794d90a ==============================
+03:12:53.572951 [info ] [MainThread]: Running with dbt=1.1.0
+03:12:53.573419 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/meena/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+03:12:53.573657 [debug] [MainThread]: Tracking: tracking
+03:12:53.585495 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcc3259caf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcc3259c910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcc3259c850>]}
+03:12:53.586216 [info ] [MainThread]: Setting up your profile.
+03:13:07.242145 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcc325fe400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcc325fe640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcc325fefd0>]}
+03:13:07.245492 [warn ] [MainThread]: Error sending message, disabling tracking
+
+
+============================== 2022-06-13 03:14:39.432224 | 3d3efc76-f0f6-42a4-95b5-493ade41f776 ==============================
+03:14:39.432253 [info ] [MainThread]: Running with dbt=1.1.0
+03:14:39.433139 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/meena/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+03:14:39.433510 [debug] [MainThread]: Tracking: tracking
+03:14:39.449975 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f49e319d5e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f49e319d6a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f49e319d6d0>]}
+03:14:39.451454 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f49e319d610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f49e319d670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f49e319d700>]}
+03:14:39.463611 [warn ] [MainThread]: Error sending message, disabling tracking
+
+
+============================== 2022-06-13 03:58:59.724146 | afcc8d69-1551-4a1e-be76-eb3e5fc6dfb2 ==============================
+03:58:59.724173 [info ] [MainThread]: Running with dbt=1.1.0
+03:58:59.740205 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/meena/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+03:58:59.740671 [debug] [MainThread]: Tracking: tracking
+03:58:59.761606 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4a0be7b4c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4a0be7b580>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4a0be7b5b0>]}
+03:58:59.763622 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4a0be7b4f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4a0be7b550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4a0be7b5e0>]}
+
+
+============================== 2022-06-13 03:59:54.469227 | 6cb1890c-cd02-4bba-9382-7a27cb7f74d7 ==============================
+03:59:54.469238 [info ] [MainThread]: Running with dbt=1.1.0
+03:59:54.469647 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/meena/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+03:59:54.469828 [debug] [MainThread]: Tracking: tracking
+03:59:54.481123 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd3c30a3a00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd3c30a3970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd3c30a3940>]}
+03:59:54.563107 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+The `source-paths` config has been renamed to `model-paths`. Please update your
+`dbt_project.yml` configuration to reflect this change.
+03:59:54.563952 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': '6cb1890c-cd02-4bba-9382-7a27cb7f74d7', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd3c18a6f40>]}
+03:59:54.564468 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+The `data-paths` config has been renamed to `seed-paths`. Please update your
+`dbt_project.yml` configuration to reflect this change.
+03:59:54.564978 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': '6cb1890c-cd02-4bba-9382-7a27cb7f74d7', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd3c18a6fd0>]}
+03:59:54.592658 [debug] [MainThread]: Executing "git --help"
+03:59:54.604566 [debug] [MainThread]: Acquiring new postgres connection "debug"
+03:59:54.605539 [debug] [MainThread]: Using postgres connection "debug"
+03:59:54.605874 [debug] [MainThread]: On debug: select 1 as id
+03:59:54.606170 [debug] [MainThread]: Opening a new connection, currently in state init
+03:59:54.893122 [debug] [MainThread]: SQL status: SELECT 1 in 0.29 seconds
+03:59:54.894538 [debug] [MainThread]: On debug: Close
+03:59:54.895162 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd3c18a7c10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd3c18a7250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd3c18a7310>]}
+03:59:56.460418 [debug] [MainThread]: Connection 'debug' was properly closed.
+
+
+============================== 2022-06-13 04:27:25.228662 | 66e45adb-04a1-452b-b2a4-b9be61bec18d ==============================
+04:27:25.228673 [info ] [MainThread]: Running with dbt=1.1.0
+04:27:25.242636 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/meena/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+04:27:25.242940 [debug] [MainThread]: Tracking: tracking
+04:27:25.256755 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f83faad0a30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f83faad09a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f83faad0970>]}
+04:27:25.340494 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+The `source-paths` config has been renamed to `model-paths`. Please update your
+`dbt_project.yml` configuration to reflect this change.
+04:27:25.341282 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': '66e45adb-04a1-452b-b2a4-b9be61bec18d', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f83f92d3f70>]}
+04:27:25.341876 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+The `data-paths` config has been renamed to `seed-paths`. Please update your
+`dbt_project.yml` configuration to reflect this change.
+04:27:25.342458 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': '66e45adb-04a1-452b-b2a4-b9be61bec18d', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f83f92d3e80>]}
+04:27:25.363746 [debug] [MainThread]: Executing "git --help"
+04:27:25.374317 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone             Clone a repository into a new directory\n   init              Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add               Add file contents to the index\n   mv                Move or rename a file, a directory, or a symlink\n   restore           Restore working tree files\n   rm                Remove files from the working tree and from the index\n   sparse-checkout   Initialize and modify the sparse-checkout\n\nexamine the history and state (see also: git help revisions)\n   bisect            Use binary search to find the commit that introduced a bug\n   diff              Show changes between commits, commit and working tree, etc\n   grep              Print lines matching a pattern\n   log               Show commit logs\n   show              Show various types of objects\n   status            Show the working tree status\n\ngrow, mark and tweak your common history\n   branch            List, create, or delete branches\n   commit            Record changes to the repository\n   merge             Join two or more development histories together\n   rebase            Reapply commits on top of another base tip\n   reset             Reset current HEAD to the specified state\n   switch            Switch branches\n   tag               Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch             Download objects and refs from another repository\n   pull              Fetch from and integrate with another repository or a local branch\n   push              Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+04:27:25.374968 [debug] [MainThread]: STDERR: "b''"
+04:27:25.383289 [debug] [MainThread]: Acquiring new postgres connection "debug"
+04:27:25.383995 [debug] [MainThread]: Using postgres connection "debug"
+04:27:25.384305 [debug] [MainThread]: On debug: select 1 as id
+04:27:25.384564 [debug] [MainThread]: Opening a new connection, currently in state init
+04:27:25.518166 [debug] [MainThread]: SQL status: SELECT 1 in 0.13 seconds
+04:27:25.519686 [debug] [MainThread]: On debug: Close
+04:27:25.520877 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f83f92e3850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f83f92e3070>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f83f92e31c0>]}
+04:27:27.277105 [debug] [MainThread]: Connection 'debug' was properly closed.
+
+
+============================== 2022-06-13 04:27:41.515035 | 627c3472-5f7c-4374-bcaa-2853e94ede34 ==============================
+04:27:41.515097 [info ] [MainThread]: Running with dbt=1.1.0
+04:27:41.515964 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/meena/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+04:27:41.516316 [debug] [MainThread]: Tracking: tracking
+04:27:41.532036 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f76ffa6a6a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f76ffa6a760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f76ffa6a790>]}
+04:27:41.533251 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f76ffa6a6d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f76ffa6a730>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f76ffa6a7c0>]}
+
+
+============================== 2022-06-13 04:27:57.205353 | 26a60c1b-c027-49d5-b94a-7fb17b6261e7 ==============================
+04:27:57.205368 [info ] [MainThread]: Running with dbt=1.1.0
+04:27:57.205846 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/meena/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'which': 'deps', 'rpc_method': 'deps', 'indirect_selection': 'eager'}
+04:27:57.206102 [debug] [MainThread]: Tracking: tracking
+04:27:57.218985 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f33d1383700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f33d13837f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f33d1383820>]}
+04:27:57.219889 [debug] [MainThread]: Set downloads directory='/tmp/dbt-downloads-pyp0zerw'
+04:27:57.220374 [debug] [MainThread]: Making package index registry request: GET https://hub.getdbt.com/api/v1/index.json
+04:27:59.485002 [debug] [MainThread]: Response from registry index: GET https://hub.getdbt.com/api/v1/index.json 200
+04:27:59.486264 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+04:28:00.141145 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+04:28:00.196792 [info ] [MainThread]: Installing dbt-labs/dbt_utils
+04:28:03.245411 [info ] [MainThread]:   Installed from version 0.7.1
+04:28:03.245839 [info ] [MainThread]:   Updated version available: 0.8.5
+04:28:03.246391 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': '26a60c1b-c027-49d5-b94a-7fb17b6261e7', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f33d1311700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f33d1311400>]}
+04:28:03.246991 [info ] [MainThread]: 
+04:28:03.247679 [info ] [MainThread]: Updates available for packages: ['dbt-labs/dbt_utils']                 
+Update your versions in packages.yml, then run dbt deps
+04:28:03.248642 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f33d1407100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f33d13fea00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f33d1311430>]}
+
+
+============================== 2022-06-13 04:28:19.978668 | 8f5a75b0-3d05-4db6-852f-f1891269e4de ==============================
+04:28:19.978698 [info ] [MainThread]: Running with dbt=1.1.0
+04:28:19.979659 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/meena/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+04:28:19.980044 [debug] [MainThread]: Tracking: tracking
+04:28:19.996134 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa275218670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa275218760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa2752187c0>]}
+04:28:20.089918 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa2751a8340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa2751b2a60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa2751b2b80>]}
+
+
+============================== 2022-06-13 04:29:45.888285 | 2421e567-3b98-4bb2-97b5-144a6d9ac7bc ==============================
+04:29:45.888295 [info ] [MainThread]: Running with dbt=1.1.0
+04:29:45.889177 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/meena/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+04:29:45.889636 [debug] [MainThread]: Tracking: tracking
+04:29:45.900856 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f30b7a67a90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f30b7a67a00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f30b7a679d0>]}
+04:29:45.980863 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+The `source-paths` config has been renamed to `model-paths`. Please update your
+`dbt_project.yml` configuration to reflect this change.
+04:29:45.981804 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': '2421e567-3b98-4bb2-97b5-144a6d9ac7bc', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f30b626f970>]}
+04:29:45.982338 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+The `data-paths` config has been renamed to `seed-paths`. Please update your
+`dbt_project.yml` configuration to reflect this change.
+04:29:45.982699 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': '2421e567-3b98-4bb2-97b5-144a6d9ac7bc', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f30b626fee0>]}
+04:29:46.010521 [debug] [MainThread]: Executing "git --help"
+04:29:46.044352 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone             Clone a repository into a new directory\n   init              Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add               Add file contents to the index\n   mv                Move or rename a file, a directory, or a symlink\n   restore           Restore working tree files\n   rm                Remove files from the working tree and from the index\n   sparse-checkout   Initialize and modify the sparse-checkout\n\nexamine the history and state (see also: git help revisions)\n   bisect            Use binary search to find the commit that introduced a bug\n   diff              Show changes between commits, commit and working tree, etc\n   grep              Print lines matching a pattern\n   log               Show commit logs\n   show              Show various types of objects\n   status            Show the working tree status\n\ngrow, mark and tweak your common history\n   branch            List, create, or delete branches\n   commit            Record changes to the repository\n   merge             Join two or more development histories together\n   rebase            Reapply commits on top of another base tip\n   reset             Reset current HEAD to the specified state\n   switch            Switch branches\n   tag               Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch             Download objects and refs from another repository\n   pull              Fetch from and integrate with another repository or a local branch\n   push              Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+04:29:46.045048 [debug] [MainThread]: STDERR: "b''"
+04:29:46.050443 [debug] [MainThread]: Acquiring new postgres connection "debug"
+04:29:46.051489 [debug] [MainThread]: Using postgres connection "debug"
+04:29:46.051836 [debug] [MainThread]: On debug: select 1 as id
+04:29:46.052185 [debug] [MainThread]: Opening a new connection, currently in state init
+04:29:46.063565 [debug] [MainThread]: SQL status: SELECT 1 in 0.01 seconds
+04:29:46.065033 [debug] [MainThread]: On debug: Close
+04:29:46.067736 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f30b627f9d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f30b627fd30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f30b627ff10>]}
+04:29:48.072143 [debug] [MainThread]: Connection 'debug' was properly closed.
+
+
+============================== 2022-06-13 04:29:53.844253 | 6333b49a-3c28-4057-a09e-f12c4f5d4994 ==============================
+04:29:53.844287 [info ] [MainThread]: Running with dbt=1.1.0
+04:29:53.845483 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/meena/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+04:29:53.845969 [debug] [MainThread]: Tracking: tracking
+04:29:53.863675 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f005ac8c610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f005ac8c6d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f005ac8c700>]}
+04:29:53.893407 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f005ac1e340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f005ac2aa90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f005ac2ab80>]}
+
+
+============================== 2022-06-13 04:30:33.534995 | 85319b74-062b-4613-b194-e6821bca6da2 ==============================
+04:30:33.535017 [info ] [MainThread]: Running with dbt=1.1.0
+04:30:33.535676 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/meena/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+04:30:33.535984 [debug] [MainThread]: Tracking: tracking
+04:30:33.551225 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f30a8a52520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f30a8a525e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f30a8a52610>]}
+04:30:33.581471 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f30a89e02b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f30a89ec9d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f30a89ecac0>]}
+
+
+============================== 2022-06-13 04:36:00.370318 | 96d9382d-ec9b-4ef3-9078-fffe1fe7a02c ==============================
+04:36:00.370336 [info ] [MainThread]: Running with dbt=1.1.0
+04:36:00.370936 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/meena/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+04:36:00.371182 [debug] [MainThread]: Tracking: tracking
+04:36:00.385888 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8b466ac5e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8b466ac6a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8b466ac6d0>]}
+04:36:00.414962 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8b466403a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8b46645b20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8b46645910>]}
+
+
+============================== 2022-06-13 04:36:38.046254 | 81169e44-50e2-45f5-96d9-8e66b2685331 ==============================
+04:36:38.046273 [info ] [MainThread]: Running with dbt=1.1.0
+04:36:38.047099 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': False, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/meena/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+04:36:38.047434 [debug] [MainThread]: Tracking: tracking
+04:36:38.059586 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa300ebfbe0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa300ec2b20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa300ec2e80>]}
+04:36:38.091594 [info ] [MainThread]: Partial parse save file not found. Starting full parse.
+04:36:38.092299 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '81169e44-50e2-45f5-96d9-8e66b2685331', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa300e7e3d0>]}
+04:36:38.193880 [debug] [MainThread]: Parsing macros/generate_schema_name.sql
+04:36:38.195385 [debug] [MainThread]: Parsing macros/delete_from_table.sql
+04:36:38.196377 [debug] [MainThread]: Parsing macros/logit.sql
+04:36:38.240847 [debug] [MainThread]: Parsing macros/concat_it.sql
+04:36:38.241876 [debug] [MainThread]: Parsing macros/catalog.sql
+04:36:38.245219 [debug] [MainThread]: Parsing macros/relations.sql
+04:36:38.246851 [debug] [MainThread]: Parsing macros/adapters.sql
+04:36:38.291061 [debug] [MainThread]: Parsing macros/materializations/snapshot_merge.sql
+04:36:38.293769 [debug] [MainThread]: Parsing macros/etc/statement.sql
+04:36:38.299036 [debug] [MainThread]: Parsing macros/etc/datetime.sql
+04:36:38.309038 [debug] [MainThread]: Parsing macros/materializations/hooks.sql
+04:36:38.313526 [debug] [MainThread]: Parsing macros/materializations/configs.sql
+04:36:38.316246 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot_merge.sql
+04:36:38.321662 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot.sql
+04:36:38.337743 [debug] [MainThread]: Parsing macros/materializations/snapshots/helpers.sql
+04:36:38.352158 [debug] [MainThread]: Parsing macros/materializations/snapshots/strategies.sql
+04:36:38.371377 [debug] [MainThread]: Parsing macros/materializations/models/view/view.sql
+04:36:38.379697 [debug] [MainThread]: Parsing macros/materializations/models/view/create_view_as.sql
+04:36:38.382773 [debug] [MainThread]: Parsing macros/materializations/models/view/create_or_replace_view.sql
+04:36:38.385878 [debug] [MainThread]: Parsing macros/materializations/models/view/helpers.sql
+04:36:38.387387 [debug] [MainThread]: Parsing macros/materializations/models/table/table.sql
+04:36:38.396291 [debug] [MainThread]: Parsing macros/materializations/models/table/create_table_as.sql
+04:36:38.400015 [debug] [MainThread]: Parsing macros/materializations/models/incremental/column_helpers.sql
+04:36:38.404962 [debug] [MainThread]: Parsing macros/materializations/models/incremental/incremental.sql
+04:36:38.416804 [debug] [MainThread]: Parsing macros/materializations/models/incremental/is_incremental.sql
+04:36:38.418615 [debug] [MainThread]: Parsing macros/materializations/models/incremental/merge.sql
+04:36:38.437191 [debug] [MainThread]: Parsing macros/materializations/models/incremental/on_schema_change.sql
+04:36:38.454534 [debug] [MainThread]: Parsing macros/materializations/seeds/helpers.sql
+04:36:38.473098 [debug] [MainThread]: Parsing macros/materializations/seeds/seed.sql
+04:36:38.480459 [debug] [MainThread]: Parsing macros/materializations/tests/where_subquery.sql
+04:36:38.482660 [debug] [MainThread]: Parsing macros/materializations/tests/test.sql
+04:36:38.488071 [debug] [MainThread]: Parsing macros/materializations/tests/helpers.sql
+04:36:38.490192 [debug] [MainThread]: Parsing macros/generic_test_sql/unique.sql
+04:36:38.491073 [debug] [MainThread]: Parsing macros/generic_test_sql/accepted_values.sql
+04:36:38.492655 [debug] [MainThread]: Parsing macros/generic_test_sql/relationships.sql
+04:36:38.493683 [debug] [MainThread]: Parsing macros/generic_test_sql/not_null.sql
+04:36:38.495091 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_alias.sql
+04:36:38.496939 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_database.sql
+04:36:38.498733 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_schema.sql
+04:36:38.501511 [debug] [MainThread]: Parsing macros/adapters/schema.sql
+04:36:38.504460 [debug] [MainThread]: Parsing macros/adapters/relation.sql
+04:36:38.515677 [debug] [MainThread]: Parsing macros/adapters/persist_docs.sql
+04:36:38.521245 [debug] [MainThread]: Parsing macros/adapters/metadata.sql
+04:36:38.529827 [debug] [MainThread]: Parsing macros/adapters/freshness.sql
+04:36:38.533216 [debug] [MainThread]: Parsing macros/adapters/columns.sql
+04:36:38.545514 [debug] [MainThread]: Parsing macros/adapters/indexes.sql
+04:36:38.548810 [debug] [MainThread]: Parsing tests/generic/builtin.sql
+04:36:38.553467 [debug] [MainThread]: Parsing macros/schema_tests/sequential_values.sql
+04:36:38.556598 [debug] [MainThread]: Parsing macros/schema_tests/fewer_rows_than.sql
+04:36:38.558534 [debug] [MainThread]: Parsing macros/schema_tests/not_accepted_values.sql
+04:36:38.561404 [debug] [MainThread]: Parsing macros/schema_tests/equality.sql
+04:36:38.565690 [debug] [MainThread]: Parsing macros/schema_tests/not_constant.sql
+04:36:38.567517 [debug] [MainThread]: Parsing macros/schema_tests/cardinality_equality.sql
+04:36:38.569937 [debug] [MainThread]: Parsing macros/schema_tests/recency.sql
+04:36:38.572077 [debug] [MainThread]: Parsing macros/schema_tests/test_unique_where.sql
+04:36:38.573793 [debug] [MainThread]: Parsing macros/schema_tests/unique_combination_of_columns.sql
+04:36:38.577463 [debug] [MainThread]: Parsing macros/schema_tests/relationships_where.sql
+04:36:38.580019 [debug] [MainThread]: Parsing macros/schema_tests/expression_is_true.sql
+04:36:38.582106 [debug] [MainThread]: Parsing macros/schema_tests/test_not_null_where.sql
+04:36:38.584193 [debug] [MainThread]: Parsing macros/schema_tests/at_least_one.sql
+04:36:38.585704 [debug] [MainThread]: Parsing macros/schema_tests/equal_rowcount.sql
+04:36:38.587587 [debug] [MainThread]: Parsing macros/schema_tests/mutually_exclusive_ranges.sql
+04:36:38.597495 [debug] [MainThread]: Parsing macros/schema_tests/accepted_range.sql
+04:36:38.600798 [debug] [MainThread]: Parsing macros/jinja_helpers/pretty_log_format.sql
+04:36:38.602136 [debug] [MainThread]: Parsing macros/jinja_helpers/slugify.sql
+04:36:38.603548 [debug] [MainThread]: Parsing macros/jinja_helpers/log_info.sql
+04:36:38.604874 [debug] [MainThread]: Parsing macros/jinja_helpers/pretty_time.sql
+04:36:38.606276 [debug] [MainThread]: Parsing macros/materializations/insert_by_period_materialization.sql
+04:36:38.634265 [debug] [MainThread]: Parsing macros/cross_db_utils/_is_relation.sql
+04:36:38.635722 [debug] [MainThread]: Parsing macros/cross_db_utils/length.sql
+04:36:38.637229 [debug] [MainThread]: Parsing macros/cross_db_utils/hash.sql
+04:36:38.639213 [debug] [MainThread]: Parsing macros/cross_db_utils/dateadd.sql
+04:36:38.642461 [debug] [MainThread]: Parsing macros/cross_db_utils/last_day.sql
+04:36:38.646774 [debug] [MainThread]: Parsing macros/cross_db_utils/date_trunc.sql
+04:36:38.648588 [debug] [MainThread]: Parsing macros/cross_db_utils/intersect.sql
+04:36:38.649998 [debug] [MainThread]: Parsing macros/cross_db_utils/safe_cast.sql
+04:36:38.652166 [debug] [MainThread]: Parsing macros/cross_db_utils/_is_ephemeral.sql
+04:36:38.654674 [debug] [MainThread]: Parsing macros/cross_db_utils/position.sql
+04:36:38.656624 [debug] [MainThread]: Parsing macros/cross_db_utils/split_part.sql
+04:36:38.658858 [debug] [MainThread]: Parsing macros/cross_db_utils/datediff.sql
+04:36:38.671667 [debug] [MainThread]: Parsing macros/cross_db_utils/concat.sql
+04:36:38.673001 [debug] [MainThread]: Parsing macros/cross_db_utils/current_timestamp.sql
+04:36:38.677051 [debug] [MainThread]: Parsing macros/cross_db_utils/replace.sql
+04:36:38.679160 [debug] [MainThread]: Parsing macros/cross_db_utils/except.sql
+04:36:38.680597 [debug] [MainThread]: Parsing macros/cross_db_utils/width_bucket.sql
+04:36:38.720852 [debug] [MainThread]: Parsing macros/cross_db_utils/identifier.sql
+04:36:38.723163 [debug] [MainThread]: Parsing macros/cross_db_utils/right.sql
+04:36:38.726328 [debug] [MainThread]: Parsing macros/cross_db_utils/literal.sql
+04:36:38.727950 [debug] [MainThread]: Parsing macros/cross_db_utils/cast_bool_to_text.sql
+04:36:38.729822 [debug] [MainThread]: Parsing macros/cross_db_utils/datatypes.sql
+04:36:38.738277 [debug] [MainThread]: Parsing macros/sql/get_column_values.sql
+04:36:38.745053 [debug] [MainThread]: Parsing macros/sql/get_query_results_as_dict.sql
+04:36:38.748048 [debug] [MainThread]: Parsing macros/sql/get_relations_by_pattern.sql
+04:36:38.752679 [debug] [MainThread]: Parsing macros/sql/generate_series.sql
+04:36:38.759846 [debug] [MainThread]: Parsing macros/sql/get_relations_by_prefix.sql
+04:36:38.764564 [debug] [MainThread]: Parsing macros/sql/safe_add.sql
+04:36:38.768122 [debug] [MainThread]: Parsing macros/sql/date_spine.sql
+04:36:38.778049 [debug] [MainThread]: Parsing macros/sql/star.sql
+04:36:38.785972 [debug] [MainThread]: Parsing macros/sql/nullcheck.sql
+04:36:38.789801 [debug] [MainThread]: Parsing macros/sql/get_tables_by_prefix_sql.sql
+04:36:38.793355 [debug] [MainThread]: Parsing macros/sql/unpivot.sql
+04:36:38.810405 [debug] [MainThread]: Parsing macros/sql/pivot.sql
+04:36:38.818662 [debug] [MainThread]: Parsing macros/sql/get_tables_by_pattern_sql.sql
+04:36:38.831123 [debug] [MainThread]: Parsing macros/sql/haversine_distance.sql
+04:36:38.843235 [debug] [MainThread]: Parsing macros/sql/nullcheck_table.sql
+04:36:38.845845 [debug] [MainThread]: Parsing macros/sql/surrogate_key.sql
+04:36:38.850365 [debug] [MainThread]: Parsing macros/sql/groupby.sql
+04:36:38.852287 [debug] [MainThread]: Parsing macros/sql/union.sql
+04:36:38.862839 [debug] [MainThread]: Parsing macros/web/get_url_path.sql
+04:36:38.865995 [debug] [MainThread]: Parsing macros/web/get_url_parameter.sql
+04:36:38.867986 [debug] [MainThread]: Parsing macros/web/get_url_host.sql
+04:36:39.262301 [debug] [MainThread]: 1603: static parser failed on dimensions/dim_staff.sql
+04:36:39.294173 [debug] [MainThread]: 1602: parser fallback to jinja rendering on dimensions/dim_staff.sql
+04:36:39.296036 [debug] [MainThread]: 1603: static parser failed on dimensions/dim_film.sql
+04:36:39.307437 [debug] [MainThread]: 1602: parser fallback to jinja rendering on dimensions/dim_film.sql
+04:36:39.308931 [debug] [MainThread]: 1603: static parser failed on dimensions/dim_store.sql
+04:36:39.317207 [debug] [MainThread]: 1602: parser fallback to jinja rendering on dimensions/dim_store.sql
+04:36:39.319543 [debug] [MainThread]: 1699: static parser successfully parsed dimensions/dim_date.sql
+04:36:39.323108 [debug] [MainThread]: 1603: static parser failed on dimensions/dim_customer.sql
+04:36:39.330692 [debug] [MainThread]: 1602: parser fallback to jinja rendering on dimensions/dim_customer.sql
+04:36:39.332658 [debug] [MainThread]: 1603: static parser failed on facts/fact_payment.sql
+04:36:39.338127 [debug] [MainThread]: 1602: parser fallback to jinja rendering on facts/fact_payment.sql
+04:36:39.339571 [debug] [MainThread]: 1603: static parser failed on facts/fact_rental.sql
+04:36:39.347055 [debug] [MainThread]: 1602: parser fallback to jinja rendering on facts/fact_rental.sql
+04:36:39.348469 [debug] [MainThread]: 1699: static parser successfully parsed example/my_first_dbt_model.sql
+04:36:39.351718 [debug] [MainThread]: 1699: static parser successfully parsed example/film_test.sql
+04:36:39.355034 [debug] [MainThread]: 1603: static parser failed on example/dim_date_inc.sql
+04:36:39.360072 [debug] [MainThread]: 1602: parser fallback to jinja rendering on example/dim_date_inc.sql
+04:36:39.361470 [debug] [MainThread]: 1699: static parser successfully parsed example/hello_world.sql
+04:36:39.364973 [debug] [MainThread]: 1603: static parser failed on example/customer_test.sql
+04:36:39.369949 [debug] [MainThread]: 1602: parser fallback to jinja rendering on example/customer_test.sql
+04:36:39.371443 [debug] [MainThread]: 1603: static parser failed on example/customer_test_macro.sql
+04:36:39.378693 [debug] [MainThread]: 1602: parser fallback to jinja rendering on example/customer_test_macro.sql
+04:36:39.380323 [debug] [MainThread]: 1603: static parser failed on example/payment_inc.sql
+04:36:39.385629 [debug] [MainThread]: 1602: parser fallback to jinja rendering on example/payment_inc.sql
+04:36:39.386991 [debug] [MainThread]: 1699: static parser successfully parsed example/my_second_dbt_model.sql
+04:36:39.637434 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '81169e44-50e2-45f5-96d9-8e66b2685331', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa300d2bdc0>]}
+04:36:39.652323 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '81169e44-50e2-45f5-96d9-8e66b2685331', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa300d75040>]}
+04:36:39.652754 [info ] [MainThread]: Found 15 models, 25 tests, 0 snapshots, 1 analysis, 356 macros, 2 operations, 0 seed files, 15 sources, 0 exposures, 0 metrics
+04:36:39.653152 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '81169e44-50e2-45f5-96d9-8e66b2685331', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa300ea5070>]}
+04:36:39.656426 [info ] [MainThread]: 
+04:36:39.657319 [debug] [MainThread]: Acquiring new postgres connection "master"
+04:36:39.661163 [debug] [ThreadPool]: Acquiring new postgres connection "list_sakila_wh"
+04:36:39.672182 [debug] [ThreadPool]: Using postgres connection "list_sakila_wh"
+04:36:39.672579 [debug] [ThreadPool]: On list_sakila_wh: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "sakila_conn", "target_name": "dev", "connection_name": "list_sakila_wh"} */
+
+    select distinct nspname from pg_namespace
+  
+04:36:39.672871 [debug] [ThreadPool]: Opening a new connection, currently in state init
+04:36:39.709902 [debug] [ThreadPool]: SQL status: SELECT 7 in 0.04 seconds
+04:36:39.712066 [debug] [ThreadPool]: On list_sakila_wh: Close
+04:36:39.713105 [debug] [ThreadPool]: Acquiring new postgres connection "list_sakila_wh"
+04:36:39.715960 [debug] [ThreadPool]: Using postgres connection "list_sakila_wh"
+04:36:39.716508 [debug] [ThreadPool]: On list_sakila_wh: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "sakila_conn", "target_name": "dev", "connection_name": "list_sakila_wh"} */
+
+    select distinct nspname from pg_namespace
+  
+04:36:39.716799 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+04:36:39.727879 [debug] [ThreadPool]: SQL status: SELECT 7 in 0.01 seconds
+04:36:39.729938 [debug] [ThreadPool]: On list_sakila_wh: Close
+04:36:39.731051 [debug] [ThreadPool]: Acquiring new postgres connection "list_sakila_wh"
+04:36:39.734959 [debug] [ThreadPool]: Using postgres connection "list_sakila_wh"
+04:36:39.735511 [debug] [ThreadPool]: On list_sakila_wh: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "sakila_conn", "target_name": "dev", "connection_name": "list_sakila_wh"} */
+
+    select distinct nspname from pg_namespace
+  
+04:36:39.735867 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+04:36:39.745955 [debug] [ThreadPool]: SQL status: SELECT 7 in 0.01 seconds
+04:36:39.748520 [debug] [ThreadPool]: On list_sakila_wh: Close
+04:36:39.749897 [debug] [ThreadPool]: Acquiring new postgres connection "create_sakila_wh_dwh"
+04:36:39.750495 [debug] [ThreadPool]: Acquiring new postgres connection "create_sakila_wh_dwh"
+04:36:39.750956 [debug] [ThreadPool]: Creating schema "_ReferenceKey(database='sakila_wh', schema='dwh', identifier=None)"
+04:36:39.765408 [debug] [ThreadPool]: Using postgres connection "create_sakila_wh_dwh"
+04:36:39.765804 [debug] [ThreadPool]: On create_sakila_wh_dwh: BEGIN
+04:36:39.766101 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+04:36:39.789085 [debug] [ThreadPool]: SQL status: BEGIN in 0.02 seconds
+04:36:39.789504 [debug] [ThreadPool]: Using postgres connection "create_sakila_wh_dwh"
+04:36:39.789797 [debug] [ThreadPool]: On create_sakila_wh_dwh: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "sakila_conn", "target_name": "dev", "connection_name": "create_sakila_wh_dwh"} */
+create schema if not exists "dwh"
+04:36:39.923331 [debug] [ThreadPool]: SQL status: CREATE SCHEMA in 0.13 seconds
+04:36:39.924500 [debug] [ThreadPool]: On create_sakila_wh_dwh: COMMIT
+04:36:39.924766 [debug] [ThreadPool]: Using postgres connection "create_sakila_wh_dwh"
+04:36:39.924979 [debug] [ThreadPool]: On create_sakila_wh_dwh: COMMIT
+04:36:39.963069 [debug] [ThreadPool]: SQL status: COMMIT in 0.04 seconds
+04:36:39.963383 [debug] [ThreadPool]: On create_sakila_wh_dwh: Close
+04:36:39.964390 [debug] [ThreadPool]: Acquiring new postgres connection "create_sakila_wh_examples"
+04:36:39.964966 [debug] [ThreadPool]: Acquiring new postgres connection "create_sakila_wh_examples"
+04:36:39.965343 [debug] [ThreadPool]: Creating schema "_ReferenceKey(database='sakila_wh', schema='examples', identifier=None)"
+04:36:39.968183 [debug] [ThreadPool]: Using postgres connection "create_sakila_wh_examples"
+04:36:39.968796 [debug] [ThreadPool]: On create_sakila_wh_examples: BEGIN
+04:36:39.969094 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+04:36:39.974457 [debug] [ThreadPool]: SQL status: BEGIN in 0.01 seconds
+04:36:39.974760 [debug] [ThreadPool]: Using postgres connection "create_sakila_wh_examples"
+04:36:39.974987 [debug] [ThreadPool]: On create_sakila_wh_examples: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "sakila_conn", "target_name": "dev", "connection_name": "create_sakila_wh_examples"} */
+create schema if not exists "examples"
+04:36:39.975587 [debug] [ThreadPool]: SQL status: CREATE SCHEMA in 0.0 seconds
+04:36:39.977425 [debug] [ThreadPool]: On create_sakila_wh_examples: COMMIT
+04:36:39.977763 [debug] [ThreadPool]: Using postgres connection "create_sakila_wh_examples"
+04:36:39.978017 [debug] [ThreadPool]: On create_sakila_wh_examples: COMMIT
+04:36:39.987845 [debug] [ThreadPool]: SQL status: COMMIT in 0.01 seconds
+04:36:39.988200 [debug] [ThreadPool]: On create_sakila_wh_examples: Close
+04:36:39.989383 [debug] [ThreadPool]: Acquiring new postgres connection "create_sakila_wh_itamar"
+04:36:39.990069 [debug] [ThreadPool]: Acquiring new postgres connection "create_sakila_wh_itamar"
+04:36:39.990590 [debug] [ThreadPool]: Creating schema "_ReferenceKey(database='sakila_wh', schema='itamar', identifier=None)"
+04:36:39.993697 [debug] [ThreadPool]: Using postgres connection "create_sakila_wh_itamar"
+04:36:39.993933 [debug] [ThreadPool]: On create_sakila_wh_itamar: BEGIN
+04:36:39.994090 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+04:36:39.999501 [debug] [ThreadPool]: SQL status: BEGIN in 0.01 seconds
+04:36:39.999765 [debug] [ThreadPool]: Using postgres connection "create_sakila_wh_itamar"
+04:36:39.999944 [debug] [ThreadPool]: On create_sakila_wh_itamar: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "sakila_conn", "target_name": "dev", "connection_name": "create_sakila_wh_itamar"} */
+create schema if not exists "itamar"
+04:36:40.000811 [debug] [ThreadPool]: SQL status: CREATE SCHEMA in 0.0 seconds
+04:36:40.002285 [debug] [ThreadPool]: On create_sakila_wh_itamar: COMMIT
+04:36:40.002573 [debug] [ThreadPool]: Using postgres connection "create_sakila_wh_itamar"
+04:36:40.002845 [debug] [ThreadPool]: On create_sakila_wh_itamar: COMMIT
+04:36:40.010011 [debug] [ThreadPool]: SQL status: COMMIT in 0.01 seconds
+04:36:40.010332 [debug] [ThreadPool]: On create_sakila_wh_itamar: Close
+04:36:40.013702 [debug] [ThreadPool]: Acquiring new postgres connection "list_sakila_wh_dwh"
+04:36:40.021878 [debug] [ThreadPool]: Using postgres connection "list_sakila_wh_dwh"
+04:36:40.022178 [debug] [ThreadPool]: On list_sakila_wh_dwh: BEGIN
+04:36:40.022408 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+04:36:40.029339 [debug] [ThreadPool]: SQL status: BEGIN in 0.01 seconds
+04:36:40.029659 [debug] [ThreadPool]: Using postgres connection "list_sakila_wh_dwh"
+04:36:40.029892 [debug] [ThreadPool]: On list_sakila_wh_dwh: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "sakila_conn", "target_name": "dev", "connection_name": "list_sakila_wh_dwh"} */
+select
+      'sakila_wh' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'dwh'
+    union all
+    select
+      'sakila_wh' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'dwh'
+  
+04:36:40.304764 [debug] [ThreadPool]: SQL status: SELECT 0 in 0.27 seconds
+04:36:40.306266 [debug] [ThreadPool]: On list_sakila_wh_dwh: ROLLBACK
+04:36:40.306703 [debug] [ThreadPool]: On list_sakila_wh_dwh: Close
+04:36:40.307771 [debug] [ThreadPool]: Acquiring new postgres connection "list_sakila_wh_examples"
+04:36:40.310361 [debug] [ThreadPool]: Using postgres connection "list_sakila_wh_examples"
+04:36:40.310644 [debug] [ThreadPool]: On list_sakila_wh_examples: BEGIN
+04:36:40.310859 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+04:36:40.318658 [debug] [ThreadPool]: SQL status: BEGIN in 0.01 seconds
+04:36:40.319036 [debug] [ThreadPool]: Using postgres connection "list_sakila_wh_examples"
+04:36:40.319299 [debug] [ThreadPool]: On list_sakila_wh_examples: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "sakila_conn", "target_name": "dev", "connection_name": "list_sakila_wh_examples"} */
+select
+      'sakila_wh' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'examples'
+    union all
+    select
+      'sakila_wh' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'examples'
+  
+04:36:40.322423 [debug] [ThreadPool]: SQL status: SELECT 0 in 0.0 seconds
+04:36:40.324781 [debug] [ThreadPool]: On list_sakila_wh_examples: ROLLBACK
+04:36:40.325327 [debug] [ThreadPool]: On list_sakila_wh_examples: Close
+04:36:40.326239 [debug] [ThreadPool]: Acquiring new postgres connection "list_sakila_wh_itamar"
+04:36:40.329012 [debug] [ThreadPool]: Using postgres connection "list_sakila_wh_itamar"
+04:36:40.329327 [debug] [ThreadPool]: On list_sakila_wh_itamar: BEGIN
+04:36:40.329585 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+04:36:40.336751 [debug] [ThreadPool]: SQL status: BEGIN in 0.01 seconds
+04:36:40.337044 [debug] [ThreadPool]: Using postgres connection "list_sakila_wh_itamar"
+04:36:40.337282 [debug] [ThreadPool]: On list_sakila_wh_itamar: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "sakila_conn", "target_name": "dev", "connection_name": "list_sakila_wh_itamar"} */
+select
+      'sakila_wh' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'itamar'
+    union all
+    select
+      'sakila_wh' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'itamar'
+  
+04:36:40.340366 [debug] [ThreadPool]: SQL status: SELECT 0 in 0.0 seconds
+04:36:40.342992 [debug] [ThreadPool]: On list_sakila_wh_itamar: ROLLBACK
+04:36:40.343860 [debug] [ThreadPool]: On list_sakila_wh_itamar: Close
+04:36:40.352701 [debug] [MainThread]: Using postgres connection "master"
+04:36:40.353000 [debug] [MainThread]: On master: BEGIN
+04:36:40.353223 [debug] [MainThread]: Opening a new connection, currently in state init
+04:36:40.359702 [debug] [MainThread]: SQL status: BEGIN in 0.01 seconds
+04:36:40.360127 [debug] [MainThread]: Using postgres connection "master"
+04:36:40.360468 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "sakila_conn", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+04:36:40.641292 [debug] [MainThread]: SQL status: SELECT 43 in 0.28 seconds
+04:36:40.643996 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '81169e44-50e2-45f5-96d9-8e66b2685331', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa300d5edc0>]}
+04:36:40.644401 [debug] [MainThread]: On master: ROLLBACK
+04:36:40.644775 [debug] [MainThread]: Using postgres connection "master"
+04:36:40.644978 [debug] [MainThread]: On master: BEGIN
+04:36:40.645371 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+04:36:40.645569 [debug] [MainThread]: On master: COMMIT
+04:36:40.645747 [debug] [MainThread]: Using postgres connection "master"
+04:36:40.645904 [debug] [MainThread]: On master: COMMIT
+04:36:40.646153 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+04:36:40.646339 [info ] [MainThread]: 
+04:36:40.646934 [info ] [MainThread]: Running 1 on-run-start hook
+04:36:40.648012 [debug] [MainThread]: Compiling operation.sakila_dbt_project.sakila_dbt_project-on-run-start-0
+04:36:40.651606 [debug] [MainThread]: Writing injected SQL for node "operation.sakila_dbt_project.sakila_dbt_project-on-run-start-0"
+04:36:40.656039 [info ] [MainThread]: 1 of 1 START hook: sakila_dbt_project.on-run-start.0 ........................... [RUN]
+04:36:40.656811 [debug] [MainThread]: Using postgres connection "master"
+04:36:40.657155 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "sakila_conn", "target_name": "dev", "connection_name": "master"} */
+create table if not exists dwh.dbt_log  (dbt_id varchar,start_at timestamp,end_at timestamp,status varchar,dbt_total_sec int)
+04:36:41.377633 [debug] [MainThread]: SQL status: CREATE TABLE in 0.72 seconds
+04:36:41.378760 [info ] [MainThread]: 1 of 1 OK hook: sakila_dbt_project.on-run-start.0 .............................. [[32mCREATE TABLE[0m in 0.72s]
+04:36:41.379225 [info ] [MainThread]: 
+04:36:41.379730 [debug] [MainThread]: On master: Close
+04:36:41.380615 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+04:36:41.381419 [info ] [MainThread]: 
+04:36:41.422678 [debug] [Thread-1  ]: Began running node model.sakila_dbt_project.dim_customer
+04:36:41.423263 [info ] [Thread-1  ]: 1 of 15 START incremental model dwh.dim_customer ............................... [RUN]
+04:36:41.424147 [debug] [Thread-1  ]: Acquiring new postgres connection "model.sakila_dbt_project.dim_customer"
+04:36:41.424491 [debug] [Thread-1  ]: Began compiling node model.sakila_dbt_project.dim_customer
+04:36:41.424793 [debug] [Thread-1  ]: Compiling model.sakila_dbt_project.dim_customer
+04:36:41.432440 [debug] [Thread-1  ]: Writing injected SQL for node "model.sakila_dbt_project.dim_customer"
+04:36:41.433122 [debug] [Thread-1  ]: finished collecting timing info
+04:36:41.433450 [debug] [Thread-1  ]: Began executing node model.sakila_dbt_project.dim_customer
+04:36:41.556462 [debug] [Thread-1  ]: Writing runtime SQL for node "model.sakila_dbt_project.dim_customer"
+04:36:41.557259 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.dim_customer"
+04:36:41.557530 [debug] [Thread-1  ]: On model.sakila_dbt_project.dim_customer: BEGIN
+04:36:41.557761 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+04:36:41.565417 [debug] [Thread-1  ]: SQL status: BEGIN in 0.01 seconds
+04:36:41.565780 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.dim_customer"
+04:36:41.566028 [debug] [Thread-1  ]: On model.sakila_dbt_project.dim_customer: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "sakila_conn", "target_name": "dev", "node_id": "model.sakila_dbt_project.dim_customer"} */
+
+      
+
+  create  table "sakila_wh"."dwh"."dim_customer"
+  as (
+    
+
+with customer_base as (
+
+select
+ *,
+	concat(customer.first_name,' ',customer.last_name) as full_name,
+	substring(email from POSITION('@' in email)+1 for char_length(email)-POSITION('@' in email)) as domain,
+	customer.active::int as active_int,
+	(case when customer.active = 0 then 'no' else 'yes' end)::varchar(100) as "active_desc",
+  '2022-06-13 04:36:37'::timestamp as dbt_time
+from
+	"sakila_wh"."stg"."customer" as customer),
+
+  address as (
+    select * from "sakila_wh"."stg"."address"
+  ),
+
+  city as (
+    select * from "sakila_wh"."stg"."city"
+  ),
+
+  country as (
+    select * from "sakila_wh"."stg"."country"
+  )
+
+  select
+  customer_base.customer_id,
+  customer_base.store_id,
+  customer_base.first_name,
+  customer_base.last_name,
+  customer_base.full_name,
+  customer_base.domain,
+  customer_base.email,
+  customer_base.active_int as active,
+  customer_base.active_desc,
+
+  address.address_id,
+  address.address,
+  city.city_id,
+  city.city,
+  country.country_id,
+  country.country,
+
+  customer_base.create_date,
+  customer_base.last_update,
+  customer_base.dbt_time
+
+  from
+  customer_base
+
+	left join address on 1=1
+	and customer_base.address_id =address.address_id
+
+	left join city on 1=1
+	and address.city_id = city.city_id
+
+  left join country on 1=1
+  and country.country_id = city.country_id
+
+  where 1=1
+
+  
+  );
+  
+04:36:42.328789 [debug] [Thread-1  ]: SQL status: SELECT 599 in 0.76 seconds
+04:36:42.344185 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.dim_customer"
+04:36:42.344441 [debug] [Thread-1  ]: On model.sakila_dbt_project.dim_customer: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "sakila_conn", "target_name": "dev", "node_id": "model.sakila_dbt_project.dim_customer"} */
+
+        insert into "sakila_wh"."dwh"."dim_customer"(customer_id) VALUES (-1)
+      
+04:36:42.345006 [debug] [Thread-1  ]: SQL status: INSERT 0 1 in 0.0 seconds
+04:36:42.345899 [debug] [Thread-1  ]: On model.sakila_dbt_project.dim_customer: COMMIT
+04:36:42.346101 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.dim_customer"
+04:36:42.346301 [debug] [Thread-1  ]: On model.sakila_dbt_project.dim_customer: COMMIT
+04:36:42.356958 [debug] [Thread-1  ]: SQL status: COMMIT in 0.01 seconds
+04:36:42.357750 [debug] [Thread-1  ]: finished collecting timing info
+04:36:42.358014 [debug] [Thread-1  ]: On model.sakila_dbt_project.dim_customer: Close
+04:36:42.358799 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '81169e44-50e2-45f5-96d9-8e66b2685331', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa30026fd00>]}
+04:36:42.359612 [info ] [Thread-1  ]: 1 of 15 OK created incremental model dwh.dim_customer .......................... [[32mSELECT 599[0m in 0.93s]
+04:36:42.360923 [debug] [Thread-1  ]: Finished running node model.sakila_dbt_project.dim_customer
+04:36:42.361815 [debug] [Thread-1  ]: Began running node model.sakila_dbt_project.dim_date
+04:36:42.363736 [info ] [Thread-1  ]: 2 of 15 START table model dwh.dim_date ......................................... [RUN]
+04:36:42.364808 [debug] [Thread-1  ]: Acquiring new postgres connection "model.sakila_dbt_project.dim_date"
+04:36:42.365249 [debug] [Thread-1  ]: Began compiling node model.sakila_dbt_project.dim_date
+04:36:42.365605 [debug] [Thread-1  ]: Compiling model.sakila_dbt_project.dim_date
+04:36:42.369176 [debug] [Thread-1  ]: Writing injected SQL for node "model.sakila_dbt_project.dim_date"
+04:36:42.369761 [debug] [Thread-1  ]: finished collecting timing info
+04:36:42.370156 [debug] [Thread-1  ]: Began executing node model.sakila_dbt_project.dim_date
+04:36:42.399851 [debug] [Thread-1  ]: Writing runtime SQL for node "model.sakila_dbt_project.dim_date"
+04:36:42.400481 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.dim_date"
+04:36:42.400747 [debug] [Thread-1  ]: On model.sakila_dbt_project.dim_date: BEGIN
+04:36:42.401143 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+04:36:42.409204 [debug] [Thread-1  ]: SQL status: BEGIN in 0.01 seconds
+04:36:42.409910 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.dim_date"
+04:36:42.410249 [debug] [Thread-1  ]: On model.sakila_dbt_project.dim_date: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "sakila_conn", "target_name": "dev", "node_id": "model.sakila_dbt_project.dim_date"} */
+
+
+  create  table "sakila_wh"."dwh"."dim_date__dbt_tmp"
+  as (
+    with dates as (
+SELECT
+       TO_CHAR(datum, 'yyyymmdd')::INT AS date_dim_id,
+       datum AS date_key,
+       EXTRACT(EPOCH FROM datum) AS epoch,
+       TO_CHAR(datum, 'TMDay') AS day_name,
+       EXTRACT(ISODOW FROM datum) AS day_of_week,
+       EXTRACT(DAY FROM datum) AS day_of_month,
+       datum - DATE_TRUNC('quarter', datum)::DATE + 1 AS day_of_quarter,
+       EXTRACT(DOY FROM datum) AS day_of_year,
+       TO_CHAR(datum, 'W')::INT AS week_of_month,
+       EXTRACT(WEEK FROM datum) AS week_of_year,
+       EXTRACT(MONTH FROM datum) AS month_actual,
+       TO_CHAR(datum, 'TMMonth') AS month_name,
+       TO_CHAR(datum, 'Mon') AS month_name_abbreviated,
+       EXTRACT(QUARTER FROM datum) AS quarter_actual,
+       CASE
+           WHEN EXTRACT(QUARTER FROM datum) = 1 THEN 'First'
+           WHEN EXTRACT(QUARTER FROM datum) = 2 THEN 'Second'
+           WHEN EXTRACT(QUARTER FROM datum) = 3 THEN 'Third'
+           WHEN EXTRACT(QUARTER FROM datum) = 4 THEN 'Fourth'
+           END AS quarter_name,
+       EXTRACT(YEAR FROM datum) AS year_actual,
+       datum + (1 - EXTRACT(ISODOW FROM datum))::INT AS first_day_of_week,
+       datum + (7 - EXTRACT(ISODOW FROM datum))::INT AS last_day_of_week,
+       datum + (1 - EXTRACT(DAY FROM datum))::INT AS first_day_of_month,
+       (DATE_TRUNC('MONTH', datum) + INTERVAL '1 MONTH - 1 day')::DATE AS last_day_of_month,
+       DATE_TRUNC('quarter', datum)::DATE AS first_day_of_quarter,
+       (DATE_TRUNC('quarter', datum) + INTERVAL '3 MONTH - 1 day')::DATE AS last_day_of_quarter,
+       TO_DATE(EXTRACT(YEAR FROM datum) || '-01-01', 'YYYY-MM-DD') AS first_day_of_year,
+       TO_DATE(EXTRACT(YEAR FROM datum) || '-12-31', 'YYYY-MM-DD') AS last_day_of_year,
+       TO_CHAR(datum, 'yyyymm') AS yyyymm,
+       CASE
+           WHEN EXTRACT(ISODOW FROM datum) IN (6, 7) THEN TRUE
+           ELSE FALSE
+           END AS weekend_indr
+FROM (SELECT '2000-01-01'::DATE + SEQUENCE.DAY AS datum
+      FROM GENERATE_SERIES(0, 29219) AS SEQUENCE (DAY)
+      GROUP BY SEQUENCE.DAY) DQ
+)
+select
+*
+from
+dates
+where
+date_key <= CURRENT_DATE
+order by date_dim_id asc
+  );
+04:36:43.642542 [debug] [Thread-1  ]: SQL status: SELECT 8200 in 1.23 seconds
+04:36:43.652880 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.dim_date"
+04:36:43.653177 [debug] [Thread-1  ]: On model.sakila_dbt_project.dim_date: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "sakila_conn", "target_name": "dev", "node_id": "model.sakila_dbt_project.dim_date"} */
+alter table "sakila_wh"."dwh"."dim_date__dbt_tmp" rename to "dim_date"
+04:36:43.653961 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 0.0 seconds
+04:36:43.656450 [debug] [Thread-1  ]: On model.sakila_dbt_project.dim_date: COMMIT
+04:36:43.656873 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.dim_date"
+04:36:43.657213 [debug] [Thread-1  ]: On model.sakila_dbt_project.dim_date: COMMIT
+04:36:43.672441 [debug] [Thread-1  ]: SQL status: COMMIT in 0.01 seconds
+04:36:43.683826 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.dim_date"
+04:36:43.684269 [debug] [Thread-1  ]: On model.sakila_dbt_project.dim_date: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "sakila_conn", "target_name": "dev", "node_id": "model.sakila_dbt_project.dim_date"} */
+drop table if exists "sakila_wh"."dwh"."dim_date__dbt_backup" cascade
+04:36:43.685000 [debug] [Thread-1  ]: SQL status: DROP TABLE in 0.0 seconds
+04:36:43.687043 [debug] [Thread-1  ]: finished collecting timing info
+04:36:43.687475 [debug] [Thread-1  ]: On model.sakila_dbt_project.dim_date: Close
+04:36:43.691710 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '81169e44-50e2-45f5-96d9-8e66b2685331', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa300d5ce80>]}
+04:36:43.692461 [info ] [Thread-1  ]: 2 of 15 OK created table model dwh.dim_date .................................... [[32mSELECT 8200[0m in 1.33s]
+04:36:43.693337 [debug] [Thread-1  ]: Finished running node model.sakila_dbt_project.dim_date
+04:36:43.693813 [debug] [Thread-1  ]: Began running node model.sakila_dbt_project.dim_film
+04:36:43.694674 [info ] [Thread-1  ]: 3 of 15 START incremental model dwh.dim_film ................................... [RUN]
+04:36:43.696135 [debug] [Thread-1  ]: Acquiring new postgres connection "model.sakila_dbt_project.dim_film"
+04:36:43.696538 [debug] [Thread-1  ]: Began compiling node model.sakila_dbt_project.dim_film
+04:36:43.696836 [debug] [Thread-1  ]: Compiling model.sakila_dbt_project.dim_film
+04:36:43.717883 [debug] [Thread-1  ]: Writing injected SQL for node "model.sakila_dbt_project.dim_film"
+04:36:43.718476 [debug] [Thread-1  ]: finished collecting timing info
+04:36:43.718835 [debug] [Thread-1  ]: Began executing node model.sakila_dbt_project.dim_film
+04:36:43.726799 [debug] [Thread-1  ]: Writing runtime SQL for node "model.sakila_dbt_project.dim_film"
+04:36:43.727503 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.dim_film"
+04:36:43.727842 [debug] [Thread-1  ]: On model.sakila_dbt_project.dim_film: BEGIN
+04:36:43.728107 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+04:36:43.737916 [debug] [Thread-1  ]: SQL status: BEGIN in 0.01 seconds
+04:36:43.738325 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.dim_film"
+04:36:43.738628 [debug] [Thread-1  ]: On model.sakila_dbt_project.dim_film: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "sakila_conn", "target_name": "dev", "node_id": "model.sakila_dbt_project.dim_film"} */
+
+      
+
+  create  table "sakila_wh"."dwh"."dim_film"
+  as (
+    
+
+with stg_film as (
+	select
+	*,
+	(case
+	when length<=75 then 'short'
+	when (length>75 and length<=120) then 'medium'
+	when length>120 then 'long'
+	else 'na' end) as length_desc,
+	COALESCE(original_language_id,0) as original_language_id_zero,
+	case when POSITION('Trailers' in special_features::varchar)>0 then 1 else 0 end  as has_trailers,
+	case when POSITION('Commentaries' in special_features::varchar)>0 then 1 else 0 end  as has_commentaries,
+	case when POSITION('Deleted Scenes' in special_features::varchar)>0 then 1 else 0 end  as has_deleted_scenes,
+	case when POSITION('Behind the Scenes' in special_features::varchar)>0 then 1 else 0 end  as has_behind_the_scenes,
+	'2022-06-13 04:36:37'::timestamp as dbt_time
+	from
+	"sakila_wh"."stg"."film"
+),
+
+language as (
+	select * from "sakila_wh"."stg"."language"
+),
+
+category as (
+	select * from "sakila_wh"."stg"."category"
+),
+
+film_category as (
+	select * from "sakila_wh"."stg"."film_category"
+),
+
+stg_film_1 as (
+	select
+	stg_film.*,
+	language.name as lang_name
+	from
+	stg_film
+	left join language on 1=1
+	and stg_film.language_id = language.language_id
+),
+
+stg_film_2 as (
+	select
+		stg_film_1.*,
+		category.category_id,
+		category.name as category_desc
+	from
+	stg_film_1
+
+	left join film_category on 1=1
+	and stg_film_1.film_id = film_category.film_id
+
+	left join category on 1=1
+	and film_category.category_id  = category.category_id
+)
+
+
+select
+  film_id,
+  title,
+  description,
+  release_year,
+  language_id,
+  lang_name,
+  original_language_id_zero as original_language_id,
+  rental_duration,
+  rental_rate,
+  length,
+  length_desc,
+  replacement_cost,
+  rating,
+  category_id,
+  category_desc,
+  special_features,
+  has_trailers,
+  has_commentaries,
+  has_behind_the_scenes,
+  has_deleted_scenes,
+  last_update,
+	dbt_time
+from
+stg_film_2
+
+where 1=1
+
+
+  );
+  
+04:36:44.230502 [debug] [Thread-1  ]: SQL status: SELECT 1000 in 0.49 seconds
+04:36:44.233908 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.dim_film"
+04:36:44.234156 [debug] [Thread-1  ]: On model.sakila_dbt_project.dim_film: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "sakila_conn", "target_name": "dev", "node_id": "model.sakila_dbt_project.dim_film"} */
+
+        insert into "sakila_wh"."dwh"."dim_film"(film_id) VALUES (-1)
+      
+04:36:44.256600 [debug] [Thread-1  ]: SQL status: INSERT 0 1 in 0.02 seconds
+04:36:44.257635 [debug] [Thread-1  ]: On model.sakila_dbt_project.dim_film: COMMIT
+04:36:44.257835 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.dim_film"
+04:36:44.258036 [debug] [Thread-1  ]: On model.sakila_dbt_project.dim_film: COMMIT
+04:36:44.299315 [debug] [Thread-1  ]: SQL status: COMMIT in 0.04 seconds
+04:36:44.300230 [debug] [Thread-1  ]: finished collecting timing info
+04:36:44.300485 [debug] [Thread-1  ]: On model.sakila_dbt_project.dim_film: Close
+04:36:44.301236 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '81169e44-50e2-45f5-96d9-8e66b2685331', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa302d5e1c0>]}
+04:36:44.301921 [info ] [Thread-1  ]: 3 of 15 OK created incremental model dwh.dim_film .............................. [[32mSELECT 1000[0m in 0.61s]
+04:36:44.302769 [debug] [Thread-1  ]: Finished running node model.sakila_dbt_project.dim_film
+04:36:44.303244 [debug] [Thread-1  ]: Began running node model.sakila_dbt_project.dim_staff
+04:36:44.303823 [info ] [Thread-1  ]: 4 of 15 START table model dwh.dim_staff ........................................ [RUN]
+04:36:44.304505 [debug] [Thread-1  ]: Acquiring new postgres connection "model.sakila_dbt_project.dim_staff"
+04:36:44.304894 [debug] [Thread-1  ]: Began compiling node model.sakila_dbt_project.dim_staff
+04:36:44.305133 [debug] [Thread-1  ]: Compiling model.sakila_dbt_project.dim_staff
+04:36:44.310395 [debug] [Thread-1  ]: Writing injected SQL for node "model.sakila_dbt_project.dim_staff"
+04:36:44.310926 [debug] [Thread-1  ]: finished collecting timing info
+04:36:44.311195 [debug] [Thread-1  ]: Began executing node model.sakila_dbt_project.dim_staff
+04:36:44.314343 [debug] [Thread-1  ]: Writing runtime SQL for node "model.sakila_dbt_project.dim_staff"
+04:36:44.314980 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.dim_staff"
+04:36:44.315385 [debug] [Thread-1  ]: On model.sakila_dbt_project.dim_staff: BEGIN
+04:36:44.315730 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+04:36:44.323160 [debug] [Thread-1  ]: SQL status: BEGIN in 0.01 seconds
+04:36:44.323599 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.dim_staff"
+04:36:44.323934 [debug] [Thread-1  ]: On model.sakila_dbt_project.dim_staff: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "sakila_conn", "target_name": "dev", "node_id": "model.sakila_dbt_project.dim_staff"} */
+
+
+  create  table "sakila_wh"."dwh"."dim_staff__dbt_tmp"
+  as (
+    
+
+with staff_base as (
+select
+*,
+(case when active::int = 1 then 1 else 0 end) as "active_int",
+(case when active::int = 1 then 'yes' else 'no' end) as "active_desc",
+'2022-06-13 04:36:37'::timestamp as dbt_time
+from
+"sakila_wh"."stg"."staff"
+)
+
+select
+	staff_id,
+	first_name,
+	last_name,
+	email,
+  active_int as active,
+  active_desc,
+	last_update,
+  dbt_time
+from
+	staff_base
+  );
+04:36:44.588182 [debug] [Thread-1  ]: SQL status: SELECT 2 in 0.26 seconds
+04:36:44.591416 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.dim_staff"
+04:36:44.591712 [debug] [Thread-1  ]: On model.sakila_dbt_project.dim_staff: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "sakila_conn", "target_name": "dev", "node_id": "model.sakila_dbt_project.dim_staff"} */
+alter table "sakila_wh"."dwh"."dim_staff__dbt_tmp" rename to "dim_staff"
+04:36:44.592293 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 0.0 seconds
+04:36:44.594924 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.dim_staff"
+04:36:44.595140 [debug] [Thread-1  ]: On model.sakila_dbt_project.dim_staff: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "sakila_conn", "target_name": "dev", "node_id": "model.sakila_dbt_project.dim_staff"} */
+
+        insert into "sakila_wh"."dwh"."dim_staff"(staff_id) VALUES (-1)
+      
+04:36:44.595707 [debug] [Thread-1  ]: SQL status: INSERT 0 1 in 0.0 seconds
+04:36:44.596896 [debug] [Thread-1  ]: On model.sakila_dbt_project.dim_staff: COMMIT
+04:36:44.597132 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.dim_staff"
+04:36:44.597324 [debug] [Thread-1  ]: On model.sakila_dbt_project.dim_staff: COMMIT
+04:36:44.622140 [debug] [Thread-1  ]: SQL status: COMMIT in 0.02 seconds
+04:36:44.626231 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.dim_staff"
+04:36:44.626768 [debug] [Thread-1  ]: On model.sakila_dbt_project.dim_staff: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "sakila_conn", "target_name": "dev", "node_id": "model.sakila_dbt_project.dim_staff"} */
+drop table if exists "sakila_wh"."dwh"."dim_staff__dbt_backup" cascade
+04:36:44.627477 [debug] [Thread-1  ]: SQL status: DROP TABLE in 0.0 seconds
+04:36:44.629188 [debug] [Thread-1  ]: finished collecting timing info
+04:36:44.629513 [debug] [Thread-1  ]: On model.sakila_dbt_project.dim_staff: Close
+04:36:44.630489 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '81169e44-50e2-45f5-96d9-8e66b2685331', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa3002c3640>]}
+04:36:44.631387 [info ] [Thread-1  ]: 4 of 15 OK created table model dwh.dim_staff ................................... [[32mSELECT 2[0m in 0.33s]
+04:36:44.632481 [debug] [Thread-1  ]: Finished running node model.sakila_dbt_project.dim_staff
+04:36:44.633055 [debug] [Thread-1  ]: Began running node model.sakila_dbt_project.fact_payment
+04:36:44.633783 [info ] [Thread-1  ]: 5 of 15 START incremental model dwh.fact_payment ............................... [RUN]
+04:36:44.634481 [debug] [Thread-1  ]: Acquiring new postgres connection "model.sakila_dbt_project.fact_payment"
+04:36:44.634748 [debug] [Thread-1  ]: Began compiling node model.sakila_dbt_project.fact_payment
+04:36:44.635026 [debug] [Thread-1  ]: Compiling model.sakila_dbt_project.fact_payment
+04:36:44.640809 [debug] [Thread-1  ]: Writing injected SQL for node "model.sakila_dbt_project.fact_payment"
+04:36:44.641505 [debug] [Thread-1  ]: finished collecting timing info
+04:36:44.641881 [debug] [Thread-1  ]: Began executing node model.sakila_dbt_project.fact_payment
+04:36:44.646260 [debug] [Thread-1  ]: Writing runtime SQL for node "model.sakila_dbt_project.fact_payment"
+04:36:44.646918 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.fact_payment"
+04:36:44.647222 [debug] [Thread-1  ]: On model.sakila_dbt_project.fact_payment: BEGIN
+04:36:44.647469 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+04:36:44.656090 [debug] [Thread-1  ]: SQL status: BEGIN in 0.01 seconds
+04:36:44.656485 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.fact_payment"
+04:36:44.656771 [debug] [Thread-1  ]: On model.sakila_dbt_project.fact_payment: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "sakila_conn", "target_name": "dev", "node_id": "model.sakila_dbt_project.fact_payment"} */
+
+      
+
+  create  table "sakila_wh"."dwh"."fact_payment"
+  as (
+    
+
+select
+*,
+'2022-06-13 04:36:37' as dbt_time
+from
+"sakila_wh"."stg"."payment"
+where 1=1
+
+
+  );
+  
+04:36:45.464650 [debug] [Thread-1  ]: SQL status: SELECT 16049 in 0.81 seconds
+04:36:45.466361 [debug] [Thread-1  ]: On model.sakila_dbt_project.fact_payment: COMMIT
+04:36:45.466599 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.fact_payment"
+04:36:45.466788 [debug] [Thread-1  ]: On model.sakila_dbt_project.fact_payment: COMMIT
+04:36:45.492836 [debug] [Thread-1  ]: SQL status: COMMIT in 0.03 seconds
+04:36:45.493656 [debug] [Thread-1  ]: finished collecting timing info
+04:36:45.493916 [debug] [Thread-1  ]: On model.sakila_dbt_project.fact_payment: Close
+04:36:45.494674 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '81169e44-50e2-45f5-96d9-8e66b2685331', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa300452d60>]}
+04:36:45.495390 [info ] [Thread-1  ]: 5 of 15 OK created incremental model dwh.fact_payment .......................... [[32mSELECT 16049[0m in 0.86s]
+04:36:45.496242 [debug] [Thread-1  ]: Finished running node model.sakila_dbt_project.fact_payment
+04:36:45.496726 [debug] [Thread-1  ]: Began running node model.sakila_dbt_project.film_test
+04:36:45.497665 [info ] [Thread-1  ]: 6 of 15 START table model examples.film_test ................................... [RUN]
+04:36:45.498684 [debug] [Thread-1  ]: Acquiring new postgres connection "model.sakila_dbt_project.film_test"
+04:36:45.499064 [debug] [Thread-1  ]: Began compiling node model.sakila_dbt_project.film_test
+04:36:45.499415 [debug] [Thread-1  ]: Compiling model.sakila_dbt_project.film_test
+04:36:45.504571 [debug] [Thread-1  ]: Writing injected SQL for node "model.sakila_dbt_project.film_test"
+04:36:45.505434 [debug] [Thread-1  ]: finished collecting timing info
+04:36:45.505888 [debug] [Thread-1  ]: Began executing node model.sakila_dbt_project.film_test
+04:36:45.513268 [debug] [Thread-1  ]: Writing runtime SQL for node "model.sakila_dbt_project.film_test"
+04:36:45.514083 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.film_test"
+04:36:45.514504 [debug] [Thread-1  ]: On model.sakila_dbt_project.film_test: BEGIN
+04:36:45.514953 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+04:36:45.521232 [debug] [Thread-1  ]: SQL status: BEGIN in 0.01 seconds
+04:36:45.521556 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.film_test"
+04:36:45.521788 [debug] [Thread-1  ]: On model.sakila_dbt_project.film_test: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "sakila_conn", "target_name": "dev", "node_id": "model.sakila_dbt_project.film_test"} */
+
+
+  create  table "sakila_wh"."examples"."film_test__dbt_tmp"
+  as (
+    select
+*
+from
+-- sakila_wh.stg.film
+"sakila_wh"."stg"."film"
+  );
+04:36:45.617167 [debug] [Thread-1  ]: SQL status: SELECT 1000 in 0.1 seconds
+04:36:45.620685 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.film_test"
+04:36:45.620951 [debug] [Thread-1  ]: On model.sakila_dbt_project.film_test: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "sakila_conn", "target_name": "dev", "node_id": "model.sakila_dbt_project.film_test"} */
+alter table "sakila_wh"."examples"."film_test__dbt_tmp" rename to "film_test"
+04:36:45.621745 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 0.0 seconds
+04:36:45.623892 [debug] [Thread-1  ]: On model.sakila_dbt_project.film_test: COMMIT
+04:36:45.624225 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.film_test"
+04:36:45.624504 [debug] [Thread-1  ]: On model.sakila_dbt_project.film_test: COMMIT
+04:36:45.640805 [debug] [Thread-1  ]: SQL status: COMMIT in 0.02 seconds
+04:36:45.643643 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.film_test"
+04:36:45.643881 [debug] [Thread-1  ]: On model.sakila_dbt_project.film_test: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "sakila_conn", "target_name": "dev", "node_id": "model.sakila_dbt_project.film_test"} */
+drop table if exists "sakila_wh"."examples"."film_test__dbt_backup" cascade
+04:36:45.644366 [debug] [Thread-1  ]: SQL status: DROP TABLE in 0.0 seconds
+04:36:45.646032 [debug] [Thread-1  ]: finished collecting timing info
+04:36:45.646379 [debug] [Thread-1  ]: On model.sakila_dbt_project.film_test: Close
+04:36:45.647132 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '81169e44-50e2-45f5-96d9-8e66b2685331', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa30026f640>]}
+04:36:45.647744 [info ] [Thread-1  ]: 6 of 15 OK created table model examples.film_test .............................. [[32mSELECT 1000[0m in 0.15s]
+04:36:45.648500 [debug] [Thread-1  ]: Finished running node model.sakila_dbt_project.film_test
+04:36:45.649075 [debug] [Thread-1  ]: Began running node model.sakila_dbt_project.hello_world
+04:36:45.649806 [info ] [Thread-1  ]: 7 of 15 START table model examples.hello_world ................................. [RUN]
+04:36:45.651102 [debug] [Thread-1  ]: Acquiring new postgres connection "model.sakila_dbt_project.hello_world"
+04:36:45.651500 [debug] [Thread-1  ]: Began compiling node model.sakila_dbt_project.hello_world
+04:36:45.651833 [debug] [Thread-1  ]: Compiling model.sakila_dbt_project.hello_world
+04:36:45.654763 [debug] [Thread-1  ]: Writing injected SQL for node "model.sakila_dbt_project.hello_world"
+04:36:45.655407 [debug] [Thread-1  ]: finished collecting timing info
+04:36:45.655758 [debug] [Thread-1  ]: Began executing node model.sakila_dbt_project.hello_world
+04:36:45.660279 [debug] [Thread-1  ]: Writing runtime SQL for node "model.sakila_dbt_project.hello_world"
+04:36:45.660910 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.hello_world"
+04:36:45.661157 [debug] [Thread-1  ]: On model.sakila_dbt_project.hello_world: BEGIN
+04:36:45.661405 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+04:36:45.671882 [debug] [Thread-1  ]: SQL status: BEGIN in 0.01 seconds
+04:36:45.672310 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.hello_world"
+04:36:45.672602 [debug] [Thread-1  ]: On model.sakila_dbt_project.hello_world: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "sakila_conn", "target_name": "dev", "node_id": "model.sakila_dbt_project.hello_world"} */
+
+
+  create  table "sakila_wh"."examples"."hello_world__dbt_tmp"
+  as (
+    select
+	customer.customer_id::int,
+	customer.store_id::int,
+	customer.first_name,
+	customer.last_name,
+	concat(customer.first_name,' ',customer.last_name) as full_name,
+	substring(email from POSITION('@' in email)+1 for char_length(email)-POSITION('@' in email)) as domain,
+	customer.email,
+	customer.active::int,
+	customer.address_id::int,
+	address.address,
+	city.city_id::int,
+	city.city,
+	(case when customer.active = 0 then 'no' else 'yes' end)::varchar(100) as "active_desc",
+	customer.create_date::timestamp,
+	customer.last_update::timestamp
+from
+	stg.customer as customer
+
+	left join stg.address on 1=1
+	and customer.address_id =address.address_id
+
+	left join stg.city on 1=1
+	and address.city_id = city.city_id
+  );
+04:36:45.741567 [debug] [Thread-1  ]: SQL status: SELECT 599 in 0.07 seconds
+04:36:45.746291 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.hello_world"
+04:36:45.746891 [debug] [Thread-1  ]: On model.sakila_dbt_project.hello_world: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "sakila_conn", "target_name": "dev", "node_id": "model.sakila_dbt_project.hello_world"} */
+alter table "sakila_wh"."examples"."hello_world__dbt_tmp" rename to "hello_world"
+04:36:45.747659 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 0.0 seconds
+04:36:45.749805 [debug] [Thread-1  ]: On model.sakila_dbt_project.hello_world: COMMIT
+04:36:45.750185 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.hello_world"
+04:36:45.750466 [debug] [Thread-1  ]: On model.sakila_dbt_project.hello_world: COMMIT
+04:36:45.764135 [debug] [Thread-1  ]: SQL status: COMMIT in 0.01 seconds
+04:36:45.767646 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.hello_world"
+04:36:45.768027 [debug] [Thread-1  ]: On model.sakila_dbt_project.hello_world: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "sakila_conn", "target_name": "dev", "node_id": "model.sakila_dbt_project.hello_world"} */
+drop table if exists "sakila_wh"."examples"."hello_world__dbt_backup" cascade
+04:36:45.768629 [debug] [Thread-1  ]: SQL status: DROP TABLE in 0.0 seconds
+04:36:45.771491 [debug] [Thread-1  ]: finished collecting timing info
+04:36:45.771899 [debug] [Thread-1  ]: On model.sakila_dbt_project.hello_world: Close
+04:36:45.777303 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '81169e44-50e2-45f5-96d9-8e66b2685331', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa30026f760>]}
+04:36:45.777995 [info ] [Thread-1  ]: 7 of 15 OK created table model examples.hello_world ............................ [[32mSELECT 599[0m in 0.13s]
+04:36:45.778801 [debug] [Thread-1  ]: Finished running node model.sakila_dbt_project.hello_world
+04:36:45.780443 [debug] [Thread-1  ]: Began running node model.sakila_dbt_project.my_first_dbt_model
+04:36:45.781214 [info ] [Thread-1  ]: 8 of 15 START table model examples.my_first_dbt_model .......................... [RUN]
+04:36:45.782144 [debug] [Thread-1  ]: Acquiring new postgres connection "model.sakila_dbt_project.my_first_dbt_model"
+04:36:45.782542 [debug] [Thread-1  ]: Began compiling node model.sakila_dbt_project.my_first_dbt_model
+04:36:45.782882 [debug] [Thread-1  ]: Compiling model.sakila_dbt_project.my_first_dbt_model
+04:36:45.787037 [debug] [Thread-1  ]: Writing injected SQL for node "model.sakila_dbt_project.my_first_dbt_model"
+04:36:45.787622 [debug] [Thread-1  ]: finished collecting timing info
+04:36:45.787946 [debug] [Thread-1  ]: Began executing node model.sakila_dbt_project.my_first_dbt_model
+04:36:45.793701 [debug] [Thread-1  ]: Writing runtime SQL for node "model.sakila_dbt_project.my_first_dbt_model"
+04:36:45.794339 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.my_first_dbt_model"
+04:36:45.794623 [debug] [Thread-1  ]: On model.sakila_dbt_project.my_first_dbt_model: BEGIN
+04:36:45.794889 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+04:36:45.812869 [debug] [Thread-1  ]: SQL status: BEGIN in 0.02 seconds
+04:36:45.813289 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.my_first_dbt_model"
+04:36:45.813576 [debug] [Thread-1  ]: On model.sakila_dbt_project.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "sakila_conn", "target_name": "dev", "node_id": "model.sakila_dbt_project.my_first_dbt_model"} */
+
+
+  create  table "sakila_wh"."examples"."my_first_dbt_model__dbt_tmp"
+  as (
+    /*
+    Welcome to your first dbt model!
+    Did you know that you can also configure models directly within SQL files?
+    This will override configurations stated in dbt_project.yml
+
+    Try changing "table" to "view" below
+*/
+
+
+
+with source_data as (
+
+    select 1 as id
+    union all
+    select null as id
+
+)
+
+select *
+from source_data
+
+/*
+    Uncomment the line below to remove records with null `id` values
+*/
+
+-- where id is not null
+  );
+04:36:45.815871 [debug] [Thread-1  ]: SQL status: SELECT 2 in 0.0 seconds
+04:36:45.821861 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.my_first_dbt_model"
+04:36:45.822243 [debug] [Thread-1  ]: On model.sakila_dbt_project.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "sakila_conn", "target_name": "dev", "node_id": "model.sakila_dbt_project.my_first_dbt_model"} */
+alter table "sakila_wh"."examples"."my_first_dbt_model__dbt_tmp" rename to "my_first_dbt_model"
+04:36:45.823049 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 0.0 seconds
+04:36:45.825745 [debug] [Thread-1  ]: On model.sakila_dbt_project.my_first_dbt_model: COMMIT
+04:36:45.826045 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.my_first_dbt_model"
+04:36:45.826243 [debug] [Thread-1  ]: On model.sakila_dbt_project.my_first_dbt_model: COMMIT
+04:36:45.830721 [debug] [Thread-1  ]: SQL status: COMMIT in 0.0 seconds
+04:36:45.834006 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.my_first_dbt_model"
+04:36:45.834357 [debug] [Thread-1  ]: On model.sakila_dbt_project.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "sakila_conn", "target_name": "dev", "node_id": "model.sakila_dbt_project.my_first_dbt_model"} */
+drop table if exists "sakila_wh"."examples"."my_first_dbt_model__dbt_backup" cascade
+04:36:45.834955 [debug] [Thread-1  ]: SQL status: DROP TABLE in 0.0 seconds
+04:36:45.836789 [debug] [Thread-1  ]: finished collecting timing info
+04:36:45.837221 [debug] [Thread-1  ]: On model.sakila_dbt_project.my_first_dbt_model: Close
+04:36:45.837811 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '81169e44-50e2-45f5-96d9-8e66b2685331', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa300d4e580>]}
+04:36:45.838219 [info ] [Thread-1  ]: 8 of 15 OK created table model examples.my_first_dbt_model ..................... [[32mSELECT 2[0m in 0.06s]
+04:36:45.838733 [debug] [Thread-1  ]: Finished running node model.sakila_dbt_project.my_first_dbt_model
+04:36:45.839123 [debug] [Thread-1  ]: Began running node model.sakila_dbt_project.payment_inc
+04:36:45.839787 [info ] [Thread-1  ]: 9 of 15 START incremental model examples.payment_inc ........................... [RUN]
+04:36:45.840614 [debug] [Thread-1  ]: Acquiring new postgres connection "model.sakila_dbt_project.payment_inc"
+04:36:45.840944 [debug] [Thread-1  ]: Began compiling node model.sakila_dbt_project.payment_inc
+04:36:45.841180 [debug] [Thread-1  ]: Compiling model.sakila_dbt_project.payment_inc
+04:36:45.845246 [debug] [Thread-1  ]: Writing injected SQL for node "model.sakila_dbt_project.payment_inc"
+04:36:45.846142 [debug] [Thread-1  ]: finished collecting timing info
+04:36:45.846509 [debug] [Thread-1  ]: Began executing node model.sakila_dbt_project.payment_inc
+04:36:45.850207 [debug] [Thread-1  ]: Writing runtime SQL for node "model.sakila_dbt_project.payment_inc"
+04:36:45.850765 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.payment_inc"
+04:36:45.851012 [debug] [Thread-1  ]: On model.sakila_dbt_project.payment_inc: BEGIN
+04:36:45.851180 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+04:36:45.859424 [debug] [Thread-1  ]: SQL status: BEGIN in 0.01 seconds
+04:36:45.859829 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.payment_inc"
+04:36:45.860120 [debug] [Thread-1  ]: On model.sakila_dbt_project.payment_inc: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "sakila_conn", "target_name": "dev", "node_id": "model.sakila_dbt_project.payment_inc"} */
+
+      
+
+  create  table "sakila_wh"."examples"."payment_inc"
+  as (
+    
+
+select
+*,
+'2022-06-13 04:36:37' as dbt_time
+from
+stg.payment
+where 1=1
+
+
+
+
+-- - INTERVAL '3 DAY'
+-- unique_key='payment_id'
+  );
+  
+04:36:45.954290 [debug] [Thread-1  ]: SQL status: SELECT 16049 in 0.09 seconds
+04:36:45.956415 [debug] [Thread-1  ]: On model.sakila_dbt_project.payment_inc: COMMIT
+04:36:45.956737 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.payment_inc"
+04:36:45.956991 [debug] [Thread-1  ]: On model.sakila_dbt_project.payment_inc: COMMIT
+04:36:46.001376 [debug] [Thread-1  ]: SQL status: COMMIT in 0.04 seconds
+04:36:46.002092 [debug] [Thread-1  ]: finished collecting timing info
+04:36:46.002356 [debug] [Thread-1  ]: On model.sakila_dbt_project.payment_inc: Close
+04:36:46.003061 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '81169e44-50e2-45f5-96d9-8e66b2685331', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa300dd07c0>]}
+04:36:46.003634 [info ] [Thread-1  ]: 9 of 15 OK created incremental model examples.payment_inc ...................... [[32mSELECT 16049[0m in 0.16s]
+04:36:46.004226 [debug] [Thread-1  ]: Finished running node model.sakila_dbt_project.payment_inc
+04:36:46.004660 [debug] [Thread-1  ]: Began running node model.sakila_dbt_project.dim_date_inc
+04:36:46.005103 [info ] [Thread-1  ]: 10 of 15 START incremental model examples.dim_date_inc ......................... [RUN]
+04:36:46.005771 [debug] [Thread-1  ]: Acquiring new postgres connection "model.sakila_dbt_project.dim_date_inc"
+04:36:46.006025 [debug] [Thread-1  ]: Began compiling node model.sakila_dbt_project.dim_date_inc
+04:36:46.006288 [debug] [Thread-1  ]: Compiling model.sakila_dbt_project.dim_date_inc
+04:36:46.012188 [debug] [Thread-1  ]: Writing injected SQL for node "model.sakila_dbt_project.dim_date_inc"
+04:36:46.012763 [debug] [Thread-1  ]: finished collecting timing info
+04:36:46.013051 [debug] [Thread-1  ]: Began executing node model.sakila_dbt_project.dim_date_inc
+04:36:46.018662 [debug] [Thread-1  ]: Writing runtime SQL for node "model.sakila_dbt_project.dim_date_inc"
+04:36:46.019280 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.dim_date_inc"
+04:36:46.019573 [debug] [Thread-1  ]: On model.sakila_dbt_project.dim_date_inc: BEGIN
+04:36:46.019850 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+04:36:46.028447 [debug] [Thread-1  ]: SQL status: BEGIN in 0.01 seconds
+04:36:46.028840 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.dim_date_inc"
+04:36:46.029109 [debug] [Thread-1  ]: On model.sakila_dbt_project.dim_date_inc: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "sakila_conn", "target_name": "dev", "node_id": "model.sakila_dbt_project.dim_date_inc"} */
+
+      
+
+  create  table "sakila_wh"."examples"."dim_date_inc"
+  as (
+    
+
+
+SELECT
+*
+from "sakila_wh"."dwh"."dim_date"
+where 1=1
+
+
+
+  );
+  
+04:36:46.091102 [debug] [Thread-1  ]: SQL status: SELECT 8200 in 0.06 seconds
+04:36:46.093454 [debug] [Thread-1  ]: On model.sakila_dbt_project.dim_date_inc: COMMIT
+04:36:46.093772 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.dim_date_inc"
+04:36:46.094157 [debug] [Thread-1  ]: On model.sakila_dbt_project.dim_date_inc: COMMIT
+04:36:46.156936 [debug] [Thread-1  ]: SQL status: COMMIT in 0.06 seconds
+04:36:46.157932 [debug] [Thread-1  ]: finished collecting timing info
+04:36:46.158217 [debug] [Thread-1  ]: On model.sakila_dbt_project.dim_date_inc: Close
+04:36:46.158824 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '81169e44-50e2-45f5-96d9-8e66b2685331', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa3005226d0>]}
+04:36:46.159272 [info ] [Thread-1  ]: 10 of 15 OK created incremental model examples.dim_date_inc .................... [[32mSELECT 8200[0m in 0.15s]
+04:36:46.159787 [debug] [Thread-1  ]: Finished running node model.sakila_dbt_project.dim_date_inc
+04:36:46.160175 [debug] [Thread-1  ]: Began running node model.sakila_dbt_project.dim_store
+04:36:46.160724 [info ] [Thread-1  ]: 11 of 15 START table model dwh.dim_store ....................................... [RUN]
+04:36:46.161567 [debug] [Thread-1  ]: Acquiring new postgres connection "model.sakila_dbt_project.dim_store"
+04:36:46.162001 [debug] [Thread-1  ]: Began compiling node model.sakila_dbt_project.dim_store
+04:36:46.162395 [debug] [Thread-1  ]: Compiling model.sakila_dbt_project.dim_store
+04:36:46.172139 [debug] [Thread-1  ]: Writing injected SQL for node "model.sakila_dbt_project.dim_store"
+04:36:46.172766 [debug] [Thread-1  ]: finished collecting timing info
+04:36:46.173260 [debug] [Thread-1  ]: Began executing node model.sakila_dbt_project.dim_store
+04:36:46.177134 [debug] [Thread-1  ]: Writing runtime SQL for node "model.sakila_dbt_project.dim_store"
+04:36:46.177758 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.dim_store"
+04:36:46.178050 [debug] [Thread-1  ]: On model.sakila_dbt_project.dim_store: BEGIN
+04:36:46.178266 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+04:36:46.187222 [debug] [Thread-1  ]: SQL status: BEGIN in 0.01 seconds
+04:36:46.187612 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.dim_store"
+04:36:46.187908 [debug] [Thread-1  ]: On model.sakila_dbt_project.dim_store: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "sakila_conn", "target_name": "dev", "node_id": "model.sakila_dbt_project.dim_store"} */
+
+
+  create  table "sakila_wh"."dwh"."dim_store__dbt_tmp"
+  as (
+    
+
+with stg_store as (
+		select
+    *,
+    '2022-06-13 04:36:37'::timestamp as dbt_time
+     from "sakila_wh"."stg"."store"
+),
+
+staff as (
+ select * from "sakila_wh"."dwh"."dim_staff"
+),
+
+address as (
+  select * from "sakila_wh"."stg"."address"
+),
+
+city as (
+  select * from "sakila_wh"."stg"."city"
+),
+
+country as (
+  select * from "sakila_wh"."stg"."country"
+),
+stg_store_1 as (-- add staff
+		select
+		stg_store.*,
+		staff.first_name as staff_first_name,
+		staff.last_name as staff_last_name
+		from
+		stg_store
+		left join staff  on 1=1
+		and stg_store.manager_staff_id = staff.staff_id
+),
+stg_store_2 as (-- add adress
+		select
+		stg_store_1.*,
+		address.address,
+		city.city_id,
+		city.city,
+		country.country_id,
+		country.country
+		from
+		stg_store_1
+
+		left join address on 1=1
+		and stg_store_1.address_id =address.address_id
+
+		left join city on 1=1
+		and address.city_id = city.city_id
+
+		left join country on  1=1
+		and city.country_id = country.country_id
+)
+
+select
+  store_id,
+  manager_staff_id,
+  staff_first_name,
+  staff_last_name,
+  address_id,
+  address,
+  city_id,
+  city,
+  country_id,
+  country,
+  last_update,
+  dbt_time
+from stg_store_2
+  );
+04:36:46.211326 [debug] [Thread-1  ]: SQL status: SELECT 2 in 0.02 seconds
+04:36:46.218277 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.dim_store"
+04:36:46.218666 [debug] [Thread-1  ]: On model.sakila_dbt_project.dim_store: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "sakila_conn", "target_name": "dev", "node_id": "model.sakila_dbt_project.dim_store"} */
+alter table "sakila_wh"."dwh"."dim_store__dbt_tmp" rename to "dim_store"
+04:36:46.219452 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 0.0 seconds
+04:36:46.223215 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.dim_store"
+04:36:46.223544 [debug] [Thread-1  ]: On model.sakila_dbt_project.dim_store: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "sakila_conn", "target_name": "dev", "node_id": "model.sakila_dbt_project.dim_store"} */
+
+        insert into "sakila_wh"."dwh"."dim_store"(store_id) VALUES (-1)
+      
+04:36:46.224432 [debug] [Thread-1  ]: SQL status: INSERT 0 1 in 0.0 seconds
+04:36:46.226131 [debug] [Thread-1  ]: On model.sakila_dbt_project.dim_store: COMMIT
+04:36:46.226451 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.dim_store"
+04:36:46.226726 [debug] [Thread-1  ]: On model.sakila_dbt_project.dim_store: COMMIT
+04:36:46.279267 [debug] [Thread-1  ]: SQL status: COMMIT in 0.05 seconds
+04:36:46.281799 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.dim_store"
+04:36:46.282115 [debug] [Thread-1  ]: On model.sakila_dbt_project.dim_store: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "sakila_conn", "target_name": "dev", "node_id": "model.sakila_dbt_project.dim_store"} */
+drop table if exists "sakila_wh"."dwh"."dim_store__dbt_backup" cascade
+04:36:46.282722 [debug] [Thread-1  ]: SQL status: DROP TABLE in 0.0 seconds
+04:36:46.284300 [debug] [Thread-1  ]: finished collecting timing info
+04:36:46.284650 [debug] [Thread-1  ]: On model.sakila_dbt_project.dim_store: Close
+04:36:46.285204 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '81169e44-50e2-45f5-96d9-8e66b2685331', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa30027acd0>]}
+04:36:46.285633 [info ] [Thread-1  ]: 11 of 15 OK created table model dwh.dim_store .................................. [[32mSELECT 2[0m in 0.12s]
+04:36:46.286218 [debug] [Thread-1  ]: Finished running node model.sakila_dbt_project.dim_store
+04:36:46.286508 [debug] [Thread-1  ]: Began running node model.sakila_dbt_project.customer_test
+04:36:46.287148 [info ] [Thread-1  ]: 12 of 15 START table model itamar.customers_alias .............................. [RUN]
+04:36:46.287811 [debug] [Thread-1  ]: Acquiring new postgres connection "model.sakila_dbt_project.customer_test"
+04:36:46.288067 [debug] [Thread-1  ]: Began compiling node model.sakila_dbt_project.customer_test
+04:36:46.288266 [debug] [Thread-1  ]: Compiling model.sakila_dbt_project.customer_test
+04:36:46.292400 [debug] [Thread-1  ]: Writing injected SQL for node "model.sakila_dbt_project.customer_test"
+04:36:46.293024 [debug] [Thread-1  ]: finished collecting timing info
+04:36:46.293452 [debug] [Thread-1  ]: Began executing node model.sakila_dbt_project.customer_test
+04:36:46.297204 [debug] [Thread-1  ]: Writing runtime SQL for node "model.sakila_dbt_project.customer_test"
+04:36:46.297836 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.customer_test"
+04:36:46.298133 [debug] [Thread-1  ]: On model.sakila_dbt_project.customer_test: BEGIN
+04:36:46.298397 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+04:36:46.307667 [debug] [Thread-1  ]: SQL status: BEGIN in 0.01 seconds
+04:36:46.308329 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.customer_test"
+04:36:46.308633 [debug] [Thread-1  ]: On model.sakila_dbt_project.customer_test: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "sakila_conn", "target_name": "dev", "node_id": "model.sakila_dbt_project.customer_test"} */
+
+
+  create  table "sakila_wh"."itamar"."customer_test__dbt_tmp"
+  as (
+    
+
+select
+*
+from
+"sakila_wh"."examples"."hello_world"
+where customer_id < 10
+  );
+04:36:46.351943 [debug] [Thread-1  ]: SQL status: SELECT 9 in 0.04 seconds
+04:36:46.354654 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.customer_test"
+04:36:46.354915 [debug] [Thread-1  ]: On model.sakila_dbt_project.customer_test: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "sakila_conn", "target_name": "dev", "node_id": "model.sakila_dbt_project.customer_test"} */
+alter table "sakila_wh"."itamar"."customer_test__dbt_tmp" rename to "customers_alias"
+04:36:46.356164 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 0.0 seconds
+04:36:46.358184 [debug] [Thread-1  ]: On model.sakila_dbt_project.customer_test: COMMIT
+04:36:46.358504 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.customer_test"
+04:36:46.358765 [debug] [Thread-1  ]: On model.sakila_dbt_project.customer_test: COMMIT
+04:36:46.368268 [debug] [Thread-1  ]: SQL status: COMMIT in 0.01 seconds
+04:36:46.371698 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.customer_test"
+04:36:46.371969 [debug] [Thread-1  ]: On model.sakila_dbt_project.customer_test: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "sakila_conn", "target_name": "dev", "node_id": "model.sakila_dbt_project.customer_test"} */
+drop table if exists "sakila_wh"."itamar"."customer_test__dbt_backup" cascade
+04:36:46.372585 [debug] [Thread-1  ]: SQL status: DROP TABLE in 0.0 seconds
+04:36:46.373902 [debug] [Thread-1  ]: finished collecting timing info
+04:36:46.374152 [debug] [Thread-1  ]: On model.sakila_dbt_project.customer_test: Close
+04:36:46.374999 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '81169e44-50e2-45f5-96d9-8e66b2685331', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa3002fc5e0>]}
+04:36:46.375687 [info ] [Thread-1  ]: 12 of 15 OK created table model itamar.customers_alias ......................... [[32mSELECT 9[0m in 0.09s]
+04:36:46.376497 [debug] [Thread-1  ]: Finished running node model.sakila_dbt_project.customer_test
+04:36:46.376883 [debug] [Thread-1  ]: Began running node model.sakila_dbt_project.customer_test_macro
+04:36:46.377467 [info ] [Thread-1  ]: 13 of 15 START table model examples.customer_test_macro ........................ [RUN]
+04:36:46.378253 [debug] [Thread-1  ]: Acquiring new postgres connection "model.sakila_dbt_project.customer_test_macro"
+04:36:46.378599 [debug] [Thread-1  ]: Began compiling node model.sakila_dbt_project.customer_test_macro
+04:36:46.378910 [debug] [Thread-1  ]: Compiling model.sakila_dbt_project.customer_test_macro
+04:36:46.383891 [debug] [Thread-1  ]: Writing injected SQL for node "model.sakila_dbt_project.customer_test_macro"
+04:36:46.384387 [debug] [Thread-1  ]: finished collecting timing info
+04:36:46.384632 [debug] [Thread-1  ]: Began executing node model.sakila_dbt_project.customer_test_macro
+04:36:46.388814 [debug] [Thread-1  ]: Writing runtime SQL for node "model.sakila_dbt_project.customer_test_macro"
+04:36:46.389432 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.customer_test_macro"
+04:36:46.389697 [debug] [Thread-1  ]: On model.sakila_dbt_project.customer_test_macro: BEGIN
+04:36:46.389966 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+04:36:46.397195 [debug] [Thread-1  ]: SQL status: BEGIN in 0.01 seconds
+04:36:46.397473 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.customer_test_macro"
+04:36:46.397722 [debug] [Thread-1  ]: On model.sakila_dbt_project.customer_test_macro: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "sakila_conn", "target_name": "dev", "node_id": "model.sakila_dbt_project.customer_test_macro"} */
+
+
+  create  table "sakila_wh"."examples"."customer_test_macro__dbt_tmp"
+  as (
+    
+
+select
+customer_id,
+first_name,
+last_name,
+
+    concat(first_name,'-',last_name)
+ as the_full_name
+from
+"sakila_wh"."examples"."hello_world"
+where customer_id < 10
+  );
+04:36:46.430046 [debug] [Thread-1  ]: SQL status: SELECT 9 in 0.03 seconds
+04:36:46.433115 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.customer_test_macro"
+04:36:46.433367 [debug] [Thread-1  ]: On model.sakila_dbt_project.customer_test_macro: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "sakila_conn", "target_name": "dev", "node_id": "model.sakila_dbt_project.customer_test_macro"} */
+alter table "sakila_wh"."examples"."customer_test_macro__dbt_tmp" rename to "customer_test_macro"
+04:36:46.433989 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 0.0 seconds
+04:36:46.437167 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.customer_test_macro"
+04:36:46.437373 [debug] [Thread-1  ]: On model.sakila_dbt_project.customer_test_macro: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "sakila_conn", "target_name": "dev", "node_id": "model.sakila_dbt_project.customer_test_macro"} */
+
+        insert into "sakila_wh"."examples"."customer_test_macro"(customer_id) VALUES (-1)
+      
+04:36:46.437962 [debug] [Thread-1  ]: SQL status: INSERT 0 1 in 0.0 seconds
+04:36:46.439125 [debug] [Thread-1  ]: On model.sakila_dbt_project.customer_test_macro: COMMIT
+04:36:46.439327 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.customer_test_macro"
+04:36:46.439512 [debug] [Thread-1  ]: On model.sakila_dbt_project.customer_test_macro: COMMIT
+04:36:46.446159 [debug] [Thread-1  ]: SQL status: COMMIT in 0.01 seconds
+04:36:46.451826 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.customer_test_macro"
+04:36:46.452108 [debug] [Thread-1  ]: On model.sakila_dbt_project.customer_test_macro: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "sakila_conn", "target_name": "dev", "node_id": "model.sakila_dbt_project.customer_test_macro"} */
+drop table if exists "sakila_wh"."examples"."customer_test_macro__dbt_backup" cascade
+04:36:46.453192 [debug] [Thread-1  ]: SQL status: DROP TABLE in 0.0 seconds
+04:36:46.454849 [debug] [Thread-1  ]: finished collecting timing info
+04:36:46.455308 [debug] [Thread-1  ]: On model.sakila_dbt_project.customer_test_macro: Close
+04:36:46.455992 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '81169e44-50e2-45f5-96d9-8e66b2685331', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa3004ca130>]}
+04:36:46.456619 [info ] [Thread-1  ]: 13 of 15 OK created table model examples.customer_test_macro ................... [[32mSELECT 9[0m in 0.08s]
+04:36:46.457371 [debug] [Thread-1  ]: Finished running node model.sakila_dbt_project.customer_test_macro
+04:36:46.457702 [debug] [Thread-1  ]: Began running node model.sakila_dbt_project.my_second_dbt_model
+04:36:46.458203 [info ] [Thread-1  ]: 14 of 15 START table model examples.my_second_dbt_model ........................ [RUN]
+04:36:46.459044 [debug] [Thread-1  ]: Acquiring new postgres connection "model.sakila_dbt_project.my_second_dbt_model"
+04:36:46.459604 [debug] [Thread-1  ]: Began compiling node model.sakila_dbt_project.my_second_dbt_model
+04:36:46.460099 [debug] [Thread-1  ]: Compiling model.sakila_dbt_project.my_second_dbt_model
+04:36:46.464451 [debug] [Thread-1  ]: Writing injected SQL for node "model.sakila_dbt_project.my_second_dbt_model"
+04:36:46.464998 [debug] [Thread-1  ]: finished collecting timing info
+04:36:46.465297 [debug] [Thread-1  ]: Began executing node model.sakila_dbt_project.my_second_dbt_model
+04:36:46.469953 [debug] [Thread-1  ]: Writing runtime SQL for node "model.sakila_dbt_project.my_second_dbt_model"
+04:36:46.470547 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.my_second_dbt_model"
+04:36:46.470825 [debug] [Thread-1  ]: On model.sakila_dbt_project.my_second_dbt_model: BEGIN
+04:36:46.471088 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+04:36:46.479462 [debug] [Thread-1  ]: SQL status: BEGIN in 0.01 seconds
+04:36:46.479897 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.my_second_dbt_model"
+04:36:46.480253 [debug] [Thread-1  ]: On model.sakila_dbt_project.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "sakila_conn", "target_name": "dev", "node_id": "model.sakila_dbt_project.my_second_dbt_model"} */
+
+
+  create  table "sakila_wh"."examples"."my_second_dbt_model__dbt_tmp"
+  as (
+    -- Use the `ref` function to select from other models
+
+select *
+from "sakila_wh"."examples"."my_first_dbt_model"
+where id = 1
+  );
+04:36:46.482667 [debug] [Thread-1  ]: SQL status: SELECT 1 in 0.0 seconds
+04:36:46.486067 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.my_second_dbt_model"
+04:36:46.486426 [debug] [Thread-1  ]: On model.sakila_dbt_project.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "sakila_conn", "target_name": "dev", "node_id": "model.sakila_dbt_project.my_second_dbt_model"} */
+alter table "sakila_wh"."examples"."my_second_dbt_model__dbt_tmp" rename to "my_second_dbt_model"
+04:36:46.487542 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 0.0 seconds
+04:36:46.489482 [debug] [Thread-1  ]: On model.sakila_dbt_project.my_second_dbt_model: COMMIT
+04:36:46.489755 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.my_second_dbt_model"
+04:36:46.489973 [debug] [Thread-1  ]: On model.sakila_dbt_project.my_second_dbt_model: COMMIT
+04:36:46.501729 [debug] [Thread-1  ]: SQL status: COMMIT in 0.01 seconds
+04:36:46.504863 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.my_second_dbt_model"
+04:36:46.505125 [debug] [Thread-1  ]: On model.sakila_dbt_project.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "sakila_conn", "target_name": "dev", "node_id": "model.sakila_dbt_project.my_second_dbt_model"} */
+drop table if exists "sakila_wh"."examples"."my_second_dbt_model__dbt_backup" cascade
+04:36:46.505591 [debug] [Thread-1  ]: SQL status: DROP TABLE in 0.0 seconds
+04:36:46.506789 [debug] [Thread-1  ]: finished collecting timing info
+04:36:46.507247 [debug] [Thread-1  ]: On model.sakila_dbt_project.my_second_dbt_model: Close
+04:36:46.508289 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '81169e44-50e2-45f5-96d9-8e66b2685331', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa300e17520>]}
+04:36:46.508986 [info ] [Thread-1  ]: 14 of 15 OK created table model examples.my_second_dbt_model ................... [[32mSELECT 1[0m in 0.05s]
+04:36:46.509801 [debug] [Thread-1  ]: Finished running node model.sakila_dbt_project.my_second_dbt_model
+04:36:46.510196 [debug] [Thread-1  ]: Began running node model.sakila_dbt_project.fact_rental
+04:36:46.510819 [info ] [Thread-1  ]: 15 of 15 START incremental model dwh.fact_rental ............................... [RUN]
+04:36:46.511660 [debug] [Thread-1  ]: Acquiring new postgres connection "model.sakila_dbt_project.fact_rental"
+04:36:46.511984 [debug] [Thread-1  ]: Began compiling node model.sakila_dbt_project.fact_rental
+04:36:46.512325 [debug] [Thread-1  ]: Compiling model.sakila_dbt_project.fact_rental
+04:36:46.520995 [debug] [Thread-1  ]: Writing injected SQL for node "model.sakila_dbt_project.fact_rental"
+04:36:46.521439 [debug] [Thread-1  ]: finished collecting timing info
+04:36:46.521642 [debug] [Thread-1  ]: Began executing node model.sakila_dbt_project.fact_rental
+04:36:46.526974 [debug] [Thread-1  ]: Writing runtime SQL for node "model.sakila_dbt_project.fact_rental"
+04:36:46.527612 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.fact_rental"
+04:36:46.527905 [debug] [Thread-1  ]: On model.sakila_dbt_project.fact_rental: BEGIN
+04:36:46.528194 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+04:36:46.537274 [debug] [Thread-1  ]: SQL status: BEGIN in 0.01 seconds
+04:36:46.537672 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.fact_rental"
+04:36:46.537999 [debug] [Thread-1  ]: On model.sakila_dbt_project.fact_rental: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "sakila_conn", "target_name": "dev", "node_id": "model.sakila_dbt_project.fact_rental"} */
+
+      
+
+  create  table "sakila_wh"."dwh"."fact_rental"
+  as (
+    
+
+with rental_base as (--base
+select
+	*,
+	EXTRACT(EPOCH from rental_date::timestamp) as rental_epoch,
+	EXTRACT(EPOCH from return_date::timestamp) as return_epoch,
+	EXTRACT(EPOCH from return_date::timestamp)-EXTRACT(EPOCH from rental_date::timestamp) as diff,
+	(case when return_date is not null then 1 else 0 end) as is_return,
+	to_char(rental_date::timestamp, 'YYYYMMDD')::integer as date_key,
+  '2022-06-13 04:36:37'::timestamp as dbt_time
+
+	from
+	"sakila_wh"."stg"."rental"
+),
+
+inventory as (
+	select * from "sakila_wh"."stg"."inventory"
+),
+
+dim_film as (
+	select * from "sakila_wh"."dwh"."dim_film"
+),
+
+dim_store as (
+	select * from "sakila_wh"."dwh"."dim_store"
+),
+
+dim_staff as (
+	select * from "sakila_wh"."dwh"."dim_staff"
+),
+
+dim_customer as (
+	select * from "sakila_wh"."dwh"."dim_customer"
+),
+
+rental_base_1 as (-- join base with inventory
+	select
+	rental_base.*,
+	inventory.store_id,
+  inventory.film_id
+	from
+	rental_base
+
+	inner join inventory on 1=1
+	and inventory.inventory_id = rental_base.inventory_id
+),
+
+
+rental_base_2 as (--check direct integrity
+	select
+	rental_base_1.*,
+	(case when dim_staff.staff_id is not null then dim_staff.staff_id else -1 end) as staff_id_rental_check,
+	(case when dim_customer.customer_id is not null then dim_customer.customer_id else -1 end) as customer_id_check,
+  (case when dim_film.film_id is not null then dim_film.film_id else -1 end) as film_id_check,
+	(case when dim_store.store_id is not null then dim_store.store_id else -1 end) as store_id_check
+	from
+	rental_base_1
+
+	left join
+  dim_staff
+  on 1=1
+	and rental_base_1.staff_id = dim_staff.staff_id
+
+	left join
+  dim_customer
+  on 1=1
+	and rental_base_1.customer_id = dim_customer.customer_id
+
+  left join
+  dim_film
+  on 1=1
+  and  rental_base_1.film_id = dim_film.film_id
+
+  left join
+  dim_store
+  on 1=1
+  and  rental_base_1.store_id = dim_store.store_id
+)
+
+select
+  rental_id,
+  rental_date,
+  date_key,
+  inventory_id,
+  customer_id_check as customer_id,
+  film_id_check as film_id,
+  store_id_check as store_id,
+  staff_id_rental_check as staff_id_rental,
+  return_date,
+  case when return_date is not null then diff/3600 else null end rental_hours,
+  is_return,
+  last_update,
+  dbt_time
+from
+ rental_base_2
+ where 1=1
+
+ 
+
+ --  - INTERVAL '10 minutes'
+  );
+  
+04:36:48.734677 [debug] [Thread-1  ]: SQL status: SELECT 16044 in 2.2 seconds
+04:36:48.737334 [debug] [Thread-1  ]: On model.sakila_dbt_project.fact_rental: COMMIT
+04:36:48.737640 [debug] [Thread-1  ]: Using postgres connection "model.sakila_dbt_project.fact_rental"
+04:36:48.737852 [debug] [Thread-1  ]: On model.sakila_dbt_project.fact_rental: COMMIT
+04:36:48.965020 [debug] [Thread-1  ]: SQL status: COMMIT in 0.23 seconds
+04:36:48.971091 [debug] [Thread-1  ]: finished collecting timing info
+04:36:48.971418 [debug] [Thread-1  ]: On model.sakila_dbt_project.fact_rental: Close
+04:36:48.972255 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '81169e44-50e2-45f5-96d9-8e66b2685331', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa30030edc0>]}
+04:36:48.972940 [info ] [Thread-1  ]: 15 of 15 OK created incremental model dwh.fact_rental .......................... [[32mSELECT 16044[0m in 2.46s]
+04:36:48.973540 [debug] [Thread-1  ]: Finished running node model.sakila_dbt_project.fact_rental
+04:36:48.975161 [debug] [MainThread]: Acquiring new postgres connection "master"
+04:36:48.975721 [debug] [MainThread]: Using postgres connection "master"
+04:36:48.976118 [debug] [MainThread]: On master: BEGIN
+04:36:48.976451 [debug] [MainThread]: Opening a new connection, currently in state closed
+04:36:48.983820 [debug] [MainThread]: SQL status: BEGIN in 0.01 seconds
+04:36:48.984116 [debug] [MainThread]: On master: COMMIT
+04:36:48.984308 [debug] [MainThread]: Using postgres connection "master"
+04:36:48.984480 [debug] [MainThread]: On master: COMMIT
+04:36:48.984840 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+04:36:48.985145 [info ] [MainThread]: 
+04:36:48.985473 [info ] [MainThread]: Running 1 on-run-end hook
+04:36:48.985842 [debug] [MainThread]: Compiling operation.sakila_dbt_project.sakila_dbt_project-on-run-end-0
+04:36:48.989575 [debug] [MainThread]: Using postgres connection "master"
+04:36:48.989934 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.1.0", "profile_name": "sakila_conn", "target_name": "dev", "connection_name": "master"} */
+
+    
+delete from examples.my_first_dbt_model;
+
+  
+04:36:49.187123 [debug] [MainThread]: SQL status: DELETE 2 in 0.2 seconds
+04:36:49.189006 [debug] [MainThread]: Writing injected SQL for node "operation.sakila_dbt_project.sakila_dbt_project-on-run-end-0"
+04:36:49.189936 [info ] [MainThread]: 1 of 1 START hook: sakila_dbt_project.on-run-end.0 ............................. [RUN]
+04:36:49.190492 [info ] [MainThread]: 1 of 1 OK hook: sakila_dbt_project.on-run-end.0 ................................ [[32mOK[0m in 0.00s]
+04:36:49.191049 [info ] [MainThread]: 
+04:36:49.191611 [debug] [MainThread]: On master: Close
+04:36:49.192693 [info ] [MainThread]: 
+04:36:49.193123 [info ] [MainThread]: Finished running 6 incremental models, 9 table models, 2 hooks in 9.54s.
+04:36:49.193615 [debug] [MainThread]: Connection 'master' was properly closed.
+04:36:49.193882 [debug] [MainThread]: Connection 'model.sakila_dbt_project.fact_rental' was properly closed.
+04:36:49.208295 [info ] [MainThread]: 
+04:36:49.209085 [info ] [MainThread]: [32mCompleted successfully[0m
+04:36:49.209771 [info ] [MainThread]: 
+04:36:49.210306 [info ] [MainThread]: Done. PASS=15 WARN=0 ERROR=0 SKIP=0 TOTAL=15
+04:36:49.210992 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa3004ae190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa300ea3fd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa3002f5ee0>]}
